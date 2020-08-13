@@ -1,0 +1,2001 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1406A89D52C9C9C9D3AE22D73540DEE /* Array+HeroModifier.swift */; };
+		0483A5EE4459E09CF5EB4DDB093F96D4 /* MotionProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3475FA4C0CF7D74D1855CBF4F4B60E89 /* MotionProgressRunner.swift */; };
+		0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAFAAE3FF672D337B5039F0DBA47EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */; };
+		0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6488ED445C715524A4FA531E2975ECA4 /* Lexer.swift */; };
+		0AC186742EFAC4F4676F2EDA5C5D1914 /* Pods-inmotion_JulianaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5052FFE3282474BA83311CD5C3A593AE /* Pods-inmotion_JulianaTests-dummy.m */; };
+		0B2F1C80C8A34AA1B49B13A59B204A14 /* MotionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BDC3F2F1F82936DD686BB26365D43 /* MotionTransition.swift */; };
+		0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFA101ED30A5A4ABF3256CE015972A7 /* HeroTransition+CustomTransition.swift */; };
+		0D24FEFEF4298905C4AE3E9FC22DBC38 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A266F9824CA84278AB7A807CE3FF3FFB /* TinyConstraints.swift */; };
+		0D6340000725FA261C356F5844046E5F /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DF31C6D593AAFB5A0DC47FFF69F16E /* ConditionalPreprocessor.swift */; };
+		0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F44F6DE7281DA1B52B813251C6D5683 /* HeroTransition+Animate.swift */; };
+		10B765CA2F74DA786B5BBEFFE9289821 /* MotionAnimationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572B631384BDE817CCC79AA5459D896C /* MotionAnimationState.swift */; };
+		143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F06BF56ECC023C276F6489E9469C9F9 /* HeroViewControllerDelegate.swift */; };
+		1723196E0187F2A8B97AB671B5F2AEA3 /* Motion+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D05C9A2735BF603D33B23800B9E579B /* Motion+UIView.swift */; };
+		1CE44042F73BA78CD14C0B12D60A446E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */; };
+		1E25D0C11649C68786B4A6CABD3FF20B /* Motion+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98892959562E7274BD3815517BDCAF73 /* Motion+Array.swift */; };
+		26E3ED878E28AEF14F803A748CFC2218 /* Motion+Obj-C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DCFAF42D192B97E6F17B487920D1BD /* Motion+Obj-C.swift */; };
+		28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B26B3A4AF2B7380D0B6C69020689EB13 /* Hero-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A139BBFD5CD6AE7BE5514664A63B7EB0 /* ViewAnimator-dummy.m */; };
+		2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E74B964763BEFAFE8D2989593192F /* UICollectionView + ViewAnimator.swift */; };
+		2B63469F645B8753B20BB6C0BCA70721 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 011624A162AE3741306B87A952842E64 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m */; };
+		2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87C740261747C3E8789A3A1DFEDE1E8 /* HeroCompatible.swift */; };
+		309085917AC5FD9D654C363A2A5B71FC /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFADAFFD3F53577BF6683AF53F59974A /* Application.swift */; };
+		37C289CF48713DAB98845988FF35632C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		38297E6B86106DEF51F853B19A64FEFD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */; };
+		38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31898517EFBA2FEDB9437E73CA7D3076 /* HeroTransition.swift */; };
+		3A1E44777BED307F736D2CCAC4A0AE42 /* MotionModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831D5476A2505FFA4A40F4C118EFEF46 /* MotionModifier.swift */; };
+		3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9428BC4C1A4BE987B91C49BF2054A6F7 /* UITableView + ViewAnimator.swift */; };
+		3D3F536AE3B564EF5DDE0F5E97016C56 /* TransitionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFEA2AFF5860F37826AFBA668356DD /* TransitionPreprocessor.swift */; };
+		3F25DECA9F12C5D46B1629A88DE09621 /* Motion+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701412468BB8B0CD949326F37409A3FB /* Motion+CALayer.swift */; };
+		412205B2EE2130643BE11BBC022960FD /* MotionTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F8927AEEA4D02E6646F537CBD81F6C /* MotionTransition+Interactive.swift */; };
+		4230F9BB88BCF9953ED165FDB21F6822 /* MotionTransition+CustomTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45A1BE0348ED200D86DF6CC225D6C0C /* MotionTransition+CustomTransition.swift */; };
+		44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390A84D9E55944421AC2A49E058D694 /* Direction.swift */; };
+		463FD6A64039CEFC08F380913D5112EB /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F082C4740817E3C980B6411121EBCF4 /* MatchPreprocessor.swift */; };
+		46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B3BA37CC8E641BAC8332BFF5A217E2 /* ViewAnimator.swift */; };
+		46A22027CDD3A3831A9105231E59D644 /* MotionAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC74430605BD19C0FBEEC3C3B52201F8 /* MotionAnimatorViewContext.swift */; };
+		4BBB1A77132D1CCFE01CAC2242CAB1EA /* MotionCoreAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BF67992079FB47702FC861B1EEE916 /* MotionCoreAnimator.swift */; };
+		4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5E6740D775177C7F61225104754259 /* HeroPlugin.swift */; };
+		4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681FF9B5BF418C0BAFD8F75B3DE7DC0A /* HeroTransition+Interactive.swift */; };
+		50C619D9F6C0B5AF20682C8BD9823131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11198B8193265C12772C0949B3C7212 /* HeroStringConvertible.swift */; };
+		565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A781FC94F247CE4E22BE44EB77C0C2B8 /* HeroViewPropertyViewContext.swift */; };
+		58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9587035CC656650116E40112CD66A9B9 /* Animation.swift */; };
+		596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42FD53828F39421491280DD74C3DFEC /* CAMediaTimingFunction+Hero.swift */; };
+		5BBADFDBFEC30D9C9F2627A9B94E72D7 /* MotionCoordinateSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58B4D6622988DB1ADFE99D3731B7F8 /* MotionCoordinateSpace.swift */; };
+		5CE57DFE0211DF2136F0D85EC0DF8443 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD91F6E7C1E6BF8CFFC433748C148152 /* MotionAnimation.swift */; };
+		5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00A649696C5B5F0DBBD644D2C64948 /* HeroTransitionState.swift */; };
+		602071FBBC9CE2E7E138D4B67223D4A9 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A56550C7097D72F5155A4C5B721F3E3D /* TinyConstraints-dummy.m */; };
+		611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9097B8827E9F8D78AD937930BD1CDB /* HeroDefaultAnimator.swift */; };
+		61D5969CA992B1CBEF0238B8A470DE3C /* MotionPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100AA2EAD79561E89E5E1F73A7619DAA /* MotionPreprocessor.swift */; };
+		63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FB0F6A5096F52A4D82EDC241620250 /* HeroTransition+UITabBarControllerDelegate.swift */; };
+		6414A3C946047A5BD480F77CBCA3D5D3 /* Pods-inmotion_Juliana-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B34B4CF28E1A6CC820641C22F6B7F1D0 /* Pods-inmotion_Juliana-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673485D58E3E723BC59A27EEEDCE3F26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		682C1E0F229656FA57C89855943C3916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		6A4789BE97AFBE65662059B1A413A305 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D287B8D83BFC5E7B222D6D7C89E2F /* MotionTransition+UIViewControllerTransitioningDelegate.swift */; };
+		6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909086A8CE09134D376ED68F550B4427 /* MatchPreprocessor.swift */; };
+		727D2688A4CFB2A4AA5B09CCCDF7C74E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A164B84B469EB99204A2EACC694BC0 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		7475667CD310E7FCE432B72F495B41F0 /* Motion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDF0822D3FAC414648ED740CA265934 /* Motion-dummy.m */; };
+		74B31609FF8CFA6616E9FAE49A8D12BD /* MotionTransitionObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75211B23FB3DF8EC4C4FDBC7CFE85EC /* MotionTransitionObserver.swift */; };
+		750DDB697C338B480D042918A1A6231E /* Pods-inmotion_JulianaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A828A2258B0430B9B0A703A4B4170AD9 /* Pods-inmotion_JulianaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07D9F22950BDFBA8C4D267D0CF87AD1 /* HeroModifier+HeroStringConvertible.swift */; };
+		7817A86B5095EE85E0B1C07BA52E5AC5 /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459B5DE00D7154AF220732D782509D00 /* SourcePreprocessor.swift */; };
+		783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574C90A667DABD8661B241A337535901 /* HeroTransition+UINavigationControllerDelegate.swift */; };
+		7B2A1D2FB096F281699C755ABD3B69FE /* MotionTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C89F57DBD2800BFA07D7169AAD8DD /* MotionTransition+Complete.swift */; };
+		7E624A7936D0667CE4DF05EEC9E9CB12 /* MotionViewTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD8EDEDDDB5B301A661D8B2A2687EC1 /* MotionViewTransition.swift */; };
+		7EBF65FFF704A20C1A427282812A4DF9 /* Motion+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E38BF7433B5E2F29EEFB104AF0B6F6 /* Motion+UIViewController.swift */; };
+		7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D1E134F1F9EA72E6ABD2EB0EEBD5B6 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD07DF91D86B1C373E8F5A29575A4F1 /* SourcePreprocessor.swift */; };
+		80C64F8B50FDB2E25A939480C3FEC43A /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416A0A5AEB020DAE74A49A5267F2D93 /* TinyConstraints+superview.swift */; };
+		8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE6C3F2F89AC7FA4752034E04AA5570 /* HeroModifier+Advanced.swift */; };
+		85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FF4C3ACBFF65BCC44114926D4B276B /* UIColor+HexString.swift */; };
+		8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89104431E35734331C4C2674FF6E86F6 /* CG+Hero.swift */; };
+		86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F74B74B836F83EE808C4A19A7B03B3 /* ViewAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E90DD71A180FBFD74FD4840A8B7EF27 /* HeroDebugView.swift */; };
+		8D59937E268F2B5B029299E991D8FCFC /* Motion+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA56FEE4649BA27360934B099063773 /* Motion+UIKit.swift */; };
+		92690DBB54CE74542B1FC22405F0D9C8 /* MotionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76574655B98309ACB107E9E283C0C0D2 /* MotionContext.swift */; };
+		971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8A5910602A4C94ADB2477DE8D504F4 /* BasePreprocessor.swift */; };
+		981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8A6765ADB3ACE8767DB12BE0073A4F /* CascadePreprocessor.swift */; };
+		9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E821257907450E04EE7B40E199F37DF3 /* Nodes.swift */; };
+		A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2194670A8C13803F48BA72B6C79D57 /* SwiftSupport.swift */; };
+		AA9123964E64CB4F45663E479DD770C4 /* MotionViewTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C249EDE0ADC1534D8ABEBDF4D5A9E /* MotionViewTransitionAnimator.swift */; };
+		AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6FA72157D2A3DCD9B0326F818960DB /* DispatchQueue+Hero.swift */; };
+		ACEBA1427D7AB3EC0693F8AA34DEE682 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CEF1457EE46AEAEB7DC9601832425 /* MotionTransition+UITabBarControllerDelegate.swift */; };
+		AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2721A0E01CC1DE57F945D78EFA43ED5A /* HeroAnimatorViewContext.swift */; };
+		AF95EF2E96454B2C6C012E6BA8A0378C /* MotionCorePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDFBC8240504E6E1A2B48F62C2A4DF3 /* MotionCorePreprocessor.swift */; };
+		B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCBF9CEF503DBF3E4C91B7D996067CC /* DefaultAnimationPreprocessor.swift */; };
+		B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E480CAF563176E69C151F7224D92B8 /* Parser.swift */; };
+		B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D814E9F8736F1F2E140100C2DA03F2 /* HeroModifier.swift */; };
+		B9BE1785A558A68475ECB09E5FA9D25B /* MotionViewOrderStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668BDB44C12BC5F02265787906CFFD5 /* MotionViewOrderStrategy.swift */; };
+		BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45756775A8A215384109F92AA475D475 /* HeroContext.swift */; };
+		BBAEF217A622EFBF030DDA62BDDCC3F3 /* MotionCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910CD17BFFE375F8634EA80613E18954 /* MotionCoreAnimationViewContext.swift */; };
+		BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2A337329CABDAE94AC9217298AD221 /* ViewAnimatorConfig.swift */; };
+		BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C26786329979005277004F9FA8CF00 /* Hero-dummy.m */; };
+		C160270D031A31FE3692625E097086CE /* MotionViewPropertyViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39CA0BA1A13CFD7B96F9A3E885A100 /* MotionViewPropertyViewContext.swift */; };
+		C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6BFD3E4F96FD70A0B26F687DA78C67 /* HeroProgressRunner.swift */; };
+		C5B3D2DD090E72F27A6F3C0D59F2FB2E /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E2121664589084DC27FA99A9DAD5FE /* MotionTargetState.swift */; };
+		C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF2153C22FB4C88550E30BD5CA711BE /* HeroCoreAnimationViewContext.swift */; };
+		C6FCAEC50CBB29B4F5620461E5D1093D /* MotionTransition+Animate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A771E3A36AD88159EE63BBA4E13261B0 /* MotionTransition+Animate.swift */; };
+		C7EB9B0DA81C61394FCE3E60CF8DA326 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0FA787402F26917DDBC5486FE31D9 /* MotionTransition+UINavigationControllerDelegate.swift */; };
+		C8C44B715D527026B01E8372CB6D2CFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		CB65147BF39BD2DD62EFD8F5D7DFCA9E /* MotionCAAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E04446A34F1A705069D83A0CEF381EA /* MotionCAAnimation.swift */; };
+		CBF8630B51B556B1D93FF064C433A66E /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C469A0462A60E1C380AFBE5BF9760FBF /* Constraints.swift */; };
+		CCAEE4BF0C676D5173590E04D29BAE92 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56A46E6EB4B20B6B94E180E64D10075 /* TinyEdgeInsets.swift */; };
+		CECCA4016CB0E03AC93D7D5E1CD9EEF3 /* Motion+CG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413EA978C81A5951D5F1CE35F1C34B95 /* Motion+CG.swift */; };
+		CFF984D0BDE08492C60CC2D9C75E2C96 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC998D83052A5EA3455D95B34BA72D82 /* Abstraction.swift */; };
+		D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED0ADE9CD2772FD00B144A045C994ED /* HeroTransition+Complete.swift */; };
+		D41AA4853889F1497204B42CC4D4CADD /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAD0F5243579C179CBF5BE07295EC93 /* MotionAnimator.swift */; };
+		D43CF3D128D71F638E31FF421C232288 /* Motion+CAMediaTimingFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD31D6AFF3780B4F8979465CAEDCB7F /* Motion+CAMediaTimingFunction.swift */; };
+		D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3A22EF5C7B741925773D1ADAE56267 /* UIViewController+Hero.swift */; };
+		D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEB383495821EC269362B50965F36EF /* UIView+Hero.swift */; };
+		DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC61D766C632F1C8EA984560E662EC6 /* HeroTypes.swift */; };
+		DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA92E19ED7C2687E17E604625A1A227 /* HeroTransition+Start.swift */; };
+		DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8FBFACB30BDE39B24BB862D99879CB /* CALayer+Hero.swift */; };
+		DD6F354D687662E88A8E9B75ADF0EE95 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */; };
+		DF7A6BC0D371FF7ECA74781F562C475F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5550BC77F718BFCE9D18BC61EEE79 /* Stack.swift */; };
+		E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E6E7A9A89C4EB49839AEF454380AA7 /* UIKit+Hero.swift */; };
+		E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987A37EB60FA204E475C30F7FCFD8DFE /* ConditionalPreprocessor.swift */; };
+		E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B755972C32F4CCBBA6723E831D5E2C /* HeroTargetState.swift */; };
+		E4A3E04C6DB15F417020D3433BBDBD13 /* MotionTransition+Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE366DD17EBC90527B6226B0D5163A7 /* MotionTransition+Start.swift */; };
+		E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE23678926B9B5B0308D17127E27F413 /* IgnoreSubviewModifiersPreprocessor.swift */; };
+		E664CEC0E95D6F7242F91D8A2C635E94 /* CascadePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87387344179107730DAF2E725C0330F7 /* CascadePreprocessor.swift */; };
+		E673BFD5E40FEDE64FBD3549DA5CD0FA /* Pods-inmotion_Juliana-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAA1A298B3AD783ECD6638FA89D3C6F /* Pods-inmotion_Juliana-dummy.m */; };
+		E6F9048D223DEDF25F5F017A0C160939 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BAEE01C2B49FC7DD9C3FE110E93C07 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8133E0BBF2E19FCD351647A99541630 /* MotionSnapshotType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5290ECB4F2C97775A7E817D90BE5767A /* MotionSnapshotType.swift */; };
+		EAB56C7B2652650A976538B12FBAC59D /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B936E1EAA6EDE929248797246E3C3AC /* Constrainable.swift */; };
+		EE48C3FC740CB4CA3AC6C98BF9140F3A /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7BD2F0A7E6C6F95F500159676C476D /* MotionPlugin.swift */; };
+		F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1926B56B1870EAB5E9835A045D81FE12 /* Regex.swift */; };
+		F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C61852B50C8F59A53F564E52A088C1 /* HeroDebugPlugin.swift */; };
+		F89DDE2BE4B4C16826AC30BBC21ACC57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */; };
+		FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979981852039C66C15623EBAE4478EED /* AnimationType.swift */; };
+		FCD1BDD7A5206F43EE5EA0F116BFD7BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */; };
+		FE2D49280F7EF6313D1CD9BD0C60F511 /* Motion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F3117B2D257C402889679B7A8A8563A /* Motion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C122AB81AB8E09EA7B36DD58AD742E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
+			remoteInfo = Hero;
+		};
+		72A77A2204D7855C12C97B4438839EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
+		7403A041D25751FE4718E0AB7EFEB78A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3893AEA4D7DBB9A086E889FC469132D;
+			remoteInfo = Hero;
+		};
+		97AAAB47A00D9EBAA4CF882E8D1E08A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		AC3B5CD87DC7FD4BD75E52BABD5DEA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+		BBC3DFA8BE93B66B5E0FA1B2536334EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		CD5FFE9531FDFA36FD817AFF2A198C9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9312109646DF39EBE725AD8F96A8C18B;
+			remoteInfo = Motion;
+		};
+		D5C4744EDBBBB87AF1F444F4E5B0FB72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BFC2827E7E6E2B51AB2CFF58AC6317;
+			remoteInfo = ViewAnimator;
+		};
+		F830A3074CE8CCA09081B5A6A1A45228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86E404175A89C8D9B95BB2E46457C4B3;
+			remoteInfo = "Pods-inmotion_Juliana";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D1E134F1F9EA72E6ABD2EB0EEBD5B6 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		011624A162AE3741306B87A952842E64 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m"; sourceTree = "<group>"; };
+		013C89F57DBD2800BFA07D7169AAD8DD /* MotionTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Complete.swift"; path = "Sources/Transition/MotionTransition+Complete.swift"; sourceTree = "<group>"; };
+		069F55FAD9BCCE695F5F3EC4B99EB677 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		06DCFAF42D192B97E6F17B487920D1BD /* Motion+Obj-C.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Obj-C.swift"; path = "Sources/Extensions/Motion+Obj-C.swift"; sourceTree = "<group>"; };
+		0B1BDC3F2F1F82936DD686BB26365D43 /* MotionTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransition.swift; path = Sources/Transition/MotionTransition.swift; sourceTree = "<group>"; };
+		0C8A5910602A4C94ADB2477DE8D504F4 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
+		0E90DD71A180FBFD74FD4840A8B7EF27 /* HeroDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugView.swift; path = "Sources/Debug Plugin/HeroDebugView.swift"; sourceTree = "<group>"; };
+		0F3117B2D257C402889679B7A8A8563A /* Motion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-umbrella.h"; sourceTree = "<group>"; };
+		100AA2EAD79561E89E5E1F73A7619DAA /* MotionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPreprocessor.swift; path = Sources/Preprocessors/MotionPreprocessor.swift; sourceTree = "<group>"; };
+		12BAEE01C2B49FC7DD9C3FE110E93C07 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h"; sourceTree = "<group>"; };
+		12C02DE41C73D773ACFAD126880A82EA /* Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1565544DAF4EFDD68E15D62EDA656553 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inmotion_Juliana_inmotion_JulianaUITests.framework; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BB4956B37204D5D1D4AB73B6344E8D /* ViewAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-prefix.pch"; sourceTree = "<group>"; };
+		1926B56B1870EAB5E9835A045D81FE12 /* Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Regex.swift; path = Sources/Parser/Regex.swift; sourceTree = "<group>"; };
+		198E780B4BDF3270FCAC8CDFC4970372 /* Pods-inmotion_JulianaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_JulianaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A13B3FB965BF26776E199B62346EDAF /* Pods-inmotion_Juliana-inmotion_JulianaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests.modulemap"; sourceTree = "<group>"; };
+		1D05C9A2735BF603D33B23800B9E579B /* Motion+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIView.swift"; path = "Sources/Extensions/Motion+UIView.swift"; sourceTree = "<group>"; };
+		1E8FBFACB30BDE39B24BB862D99879CB /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
+		1EE366DD17EBC90527B6226B0D5163A7 /* MotionTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Start.swift"; path = "Sources/Transition/MotionTransition+Start.swift"; sourceTree = "<group>"; };
+		1F44F6DE7281DA1B52B813251C6D5683 /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
+		1FAA1A298B3AD783ECD6638FA89D3C6F /* Pods-inmotion_Juliana-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inmotion_Juliana-dummy.m"; sourceTree = "<group>"; };
+		2422EC294575DDBE9D1091A58A42CC78 /* Pods-inmotion_Juliana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_Juliana.debug.xcconfig"; sourceTree = "<group>"; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24C68AB82F73130B2DF5CACC7EE7C67E /* ViewAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.release.xcconfig; sourceTree = "<group>"; };
+		2553953DD9081AFAE2357842878D67B3 /* Pods-inmotion_Juliana-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_Juliana-acknowledgements.plist"; sourceTree = "<group>"; };
+		2668BDB44C12BC5F02265787906CFFD5 /* MotionViewOrderStrategy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewOrderStrategy.swift; path = Sources/MotionViewOrderStrategy.swift; sourceTree = "<group>"; };
+		2721A0E01CC1DE57F945D78EFA43ED5A /* HeroAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroAnimatorViewContext.swift; path = Sources/Animator/HeroAnimatorViewContext.swift; sourceTree = "<group>"; };
+		2C64A1F78E1847028DF69181BD53772F /* Pods-inmotion_JulianaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_JulianaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2DCFEA2AFF5860F37826AFBA668356DD /* TransitionPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionPreprocessor.swift; path = Sources/Preprocessors/TransitionPreprocessor.swift; sourceTree = "<group>"; };
+		2F082C4740817E3C980B6411121EBCF4 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		3168B91522E9A2B8D249676967184EF8 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-Info.plist"; sourceTree = "<group>"; };
+		31898517EFBA2FEDB9437E73CA7D3076 /* HeroTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransition.swift; path = Sources/Transition/HeroTransition.swift; sourceTree = "<group>"; };
+		3475FA4C0CF7D74D1855CBF4F4B60E89 /* MotionProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionProgressRunner.swift; path = Sources/Transition/MotionProgressRunner.swift; sourceTree = "<group>"; };
+		34C75EBEADADEA70C51C5DF61AB4F0CE /* Pods-inmotion_Juliana.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inmotion_Juliana.modulemap"; sourceTree = "<group>"; };
+		35A5550BC77F718BFCE9D18BC61EEE79 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		386E74B964763BEFAFE8D2989593192F /* UICollectionView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UICollectionView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		3AD31D6AFF3780B4F8979465CAEDCB7F /* Motion+CAMediaTimingFunction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CAMediaTimingFunction.swift"; path = "Sources/Extensions/Motion+CAMediaTimingFunction.swift"; sourceTree = "<group>"; };
+		3B58B4D6622988DB1ADFE99D3731B7F8 /* MotionCoordinateSpace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoordinateSpace.swift; path = Sources/MotionCoordinateSpace.swift; sourceTree = "<group>"; };
+		3CF2153C22FB4C88550E30BD5CA711BE /* HeroCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCoreAnimationViewContext.swift; path = Sources/Animator/HeroCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		3E04446A34F1A705069D83A0CEF381EA /* MotionCAAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCAAnimation.swift; path = Sources/MotionCAAnimation.swift; sourceTree = "<group>"; };
+		3E2194670A8C13803F48BA72B6C79D57 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = Sources/SwiftSupport.swift; sourceTree = "<group>"; };
+		3F00A649696C5B5F0DBBD644D2C64948 /* HeroTransitionState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTransitionState.swift; path = Sources/Transition/HeroTransitionState.swift; sourceTree = "<group>"; };
+		3F6FA72157D2A3DCD9B0326F818960DB /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
+		3F7BD2F0A7E6C6F95F500159676C476D /* MotionPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionPlugin.swift; path = Sources/MotionPlugin.swift; sourceTree = "<group>"; };
+		3FC61D766C632F1C8EA984560E662EC6 /* HeroTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTypes.swift; path = Sources/HeroTypes.swift; sourceTree = "<group>"; };
+		413EA978C81A5951D5F1CE35F1C34B95 /* Motion+CG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CG.swift"; path = "Sources/Extensions/Motion+CG.swift"; sourceTree = "<group>"; };
+		426D287B8D83BFC5E7B222D6D7C89E2F /* MotionTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/MotionTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		45756775A8A215384109F92AA475D475 /* HeroContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroContext.swift; path = Sources/HeroContext.swift; sourceTree = "<group>"; };
+		459B5DE00D7154AF220732D782509D00 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		46C26786329979005277004F9FA8CF00 /* Hero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hero-dummy.m"; sourceTree = "<group>"; };
+		4B8A6765ADB3ACE8767DB12BE0073A4F /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		4B936E1EAA6EDE929248797246E3C3AC /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		4BCD7AADADA8B192960F63E53E723ACA /* Hero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Hero-Info.plist"; sourceTree = "<group>"; };
+		5052FFE3282474BA83311CD5C3A593AE /* Pods-inmotion_JulianaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-inmotion_JulianaTests-dummy.m"; sourceTree = "<group>"; };
+		51F74B74B836F83EE808C4A19A7B03B3 /* ViewAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ViewAnimator-umbrella.h"; sourceTree = "<group>"; };
+		5290ECB4F2C97775A7E817D90BE5767A /* MotionSnapshotType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionSnapshotType.swift; path = Sources/MotionSnapshotType.swift; sourceTree = "<group>"; };
+		572B631384BDE817CCC79AA5459D896C /* MotionAnimationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationState.swift; path = Sources/MotionAnimationState.swift; sourceTree = "<group>"; };
+		574C90A667DABD8661B241A337535901 /* HeroTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60E6E7A9A89C4EB49839AEF454380AA7 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		643579593A3C74654CBFFF5FACE16CB8 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6488ED445C715524A4FA531E2975ECA4 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
+		681FF9B5BF418C0BAFD8F75B3DE7DC0A /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
+		6CD07DF91D86B1C373E8F5A29575A4F1 /* SourcePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SourcePreprocessor.swift; path = Sources/Preprocessors/SourcePreprocessor.swift; sourceTree = "<group>"; };
+		6CD8EDEDDDB5B301A661D8B2A2687EC1 /* MotionViewTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransition.swift; path = Sources/MotionViewTransition.swift; sourceTree = "<group>"; };
+		6EFA101ED30A5A4ABF3256CE015972A7 /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		701412468BB8B0CD949326F37409A3FB /* Motion+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+CALayer.swift"; path = "Sources/Extensions/Motion+CALayer.swift"; sourceTree = "<group>"; };
+		71BF67992079FB47702FC861B1EEE916 /* MotionCoreAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimator.swift; path = Sources/Animator/MotionCoreAnimator.swift; sourceTree = "<group>"; };
+		721D4FBF0576667532BA2363C37C95A3 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		76574655B98309ACB107E9E283C0C0D2 /* MotionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionContext.swift; path = Sources/MotionContext.swift; sourceTree = "<group>"; };
+		7C7EEDBBBF8421B6BD022DD039301191 /* Motion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.release.xcconfig; sourceTree = "<group>"; };
+		7DA56FEE4649BA27360934B099063773 /* Motion+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIKit.swift"; path = "Sources/Extensions/Motion+UIKit.swift"; sourceTree = "<group>"; };
+		7DADD04F9A6C8D4534765F32CEA53112 /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
+		7DDCB4C0E6FA3E9A587BF4F0E8A809BA /* ViewAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ViewAnimator.modulemap; sourceTree = "<group>"; };
+		7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7FCBF9CEF503DBF3E4C91B7D996067CC /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
+		8241C5FE05050C710AE74A62B8666B79 /* Pods-inmotion_Juliana-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_Juliana-Info.plist"; sourceTree = "<group>"; };
+		831D5476A2505FFA4A40F4C118EFEF46 /* MotionModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionModifier.swift; path = Sources/MotionModifier.swift; sourceTree = "<group>"; };
+		8390A84D9E55944421AC2A49E058D694 /* Direction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Direction.swift; path = ViewAnimator/Classes/Models/Direction.swift; sourceTree = "<group>"; };
+		87387344179107730DAF2E725C0330F7 /* CascadePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CascadePreprocessor.swift; path = Sources/Preprocessors/CascadePreprocessor.swift; sourceTree = "<group>"; };
+		88A164B84B469EB99204A2EACC694BC0 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		88F8927AEEA4D02E6646F537CBD81F6C /* MotionTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Interactive.swift"; path = "Sources/Transition/MotionTransition+Interactive.swift"; sourceTree = "<group>"; };
+		89104431E35734331C4C2674FF6E86F6 /* CG+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CG+Hero.swift"; path = "Sources/Extensions/CG+Hero.swift"; sourceTree = "<group>"; };
+		8E2C7DF75C9D702F2F72A93355D4EAFC /* Motion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Motion.modulemap; sourceTree = "<group>"; };
+		909086A8CE09134D376ED68F550B4427 /* MatchPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MatchPreprocessor.swift; path = Sources/Preprocessors/MatchPreprocessor.swift; sourceTree = "<group>"; };
+		910CD17BFFE375F8634EA80613E18954 /* MotionCoreAnimationViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCoreAnimationViewContext.swift; path = Sources/Animator/MotionCoreAnimationViewContext.swift; sourceTree = "<group>"; };
+		91B3BA37CC8E641BAC8332BFF5A217E2 /* ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimator.swift; path = ViewAnimator/Classes/ViewAnimator.swift; sourceTree = "<group>"; };
+		9416A0A5AEB020DAE74A49A5267F2D93 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		9428BC4C1A4BE987B91C49BF2054A6F7 /* UITableView + ViewAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView + ViewAnimator.swift"; path = "ViewAnimator/Classes/Extensions/UITableView + ViewAnimator.swift"; sourceTree = "<group>"; };
+		9587035CC656650116E40112CD66A9B9 /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = ViewAnimator/Classes/Protocols/Animation.swift; sourceTree = "<group>"; };
+		979981852039C66C15623EBAE4478EED /* AnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationType.swift; path = ViewAnimator/Classes/Models/AnimationType.swift; sourceTree = "<group>"; };
+		987A37EB60FA204E475C30F7FCFD8DFE /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		98892959562E7274BD3815517BDCAF73 /* Motion+Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+Array.swift"; path = "Sources/Extensions/Motion+Array.swift"; sourceTree = "<group>"; };
+		98A2CBA77D91EBCE0A5AA207486880FE /* Pods_inmotion_Juliana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inmotion_Juliana.framework; path = "Pods-inmotion_Juliana.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A422CB690BF593EFB83827A1ED28692 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
+		9A55350ED5DCB092D1EA2082E84E28AE /* Motion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Motion.debug.xcconfig; sourceTree = "<group>"; };
+		9AE610236A9FFCD12357F76A9A065637 /* ViewAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ViewAnimator-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F06BF56ECC023C276F6489E9469C9F9 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
+		9F39CA0BA1A13CFD7B96F9A3E885A100 /* MotionViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewPropertyViewContext.swift; path = Sources/Animator/MotionViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		A02E38F9D95E1B20EE9ED308073AD5C4 /* Pods-inmotion_Juliana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_Juliana.release.xcconfig"; sourceTree = "<group>"; };
+		A0FB0F6A5096F52A4D82EDC241620250 /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		A11198B8193265C12772C0949B3C7212 /* HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroStringConvertible.swift; path = Sources/Parser/HeroStringConvertible.swift; sourceTree = "<group>"; };
+		A139BBFD5CD6AE7BE5514664A63B7EB0 /* ViewAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ViewAnimator-dummy.m"; sourceTree = "<group>"; };
+		A266F9824CA84278AB7A807CE3FF3FFB /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		A2E480CAF563176E69C151F7224D92B8 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
+		A42FD53828F39421491280DD74C3DFEC /* CAMediaTimingFunction+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAMediaTimingFunction+Hero.swift"; path = "Sources/Extensions/CAMediaTimingFunction+Hero.swift"; sourceTree = "<group>"; };
+		A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A52E3858F159F478E4DE14712C669847 /* Hero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.debug.xcconfig; sourceTree = "<group>"; };
+		A56550C7097D72F5155A4C5B721F3E3D /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		A56A46E6EB4B20B6B94E180E64D10075 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		A64C249EDE0ADC1534D8ABEBDF4D5A9E /* MotionViewTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionViewTransitionAnimator.swift; path = Sources/Animator/MotionViewTransitionAnimator.swift; sourceTree = "<group>"; };
+		A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ViewAnimator.framework; path = ViewAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A771E3A36AD88159EE63BBA4E13261B0 /* MotionTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+Animate.swift"; path = "Sources/Transition/MotionTransition+Animate.swift"; sourceTree = "<group>"; };
+		A781FC94F247CE4E22BE44EB77C0C2B8 /* HeroViewPropertyViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewPropertyViewContext.swift; path = Sources/Animator/HeroViewPropertyViewContext.swift; sourceTree = "<group>"; };
+		A810B1842BDE524DE310FD2668630321 /* Pods-inmotion_Juliana-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inmotion_Juliana-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A828A2258B0430B9B0A703A4B4170AD9 /* Pods-inmotion_JulianaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inmotion_JulianaTests-umbrella.h"; sourceTree = "<group>"; };
+		A8C2D318F3B9C3A705503FEE737FBF14 /* Pods-inmotion_JulianaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-inmotion_JulianaTests.modulemap"; sourceTree = "<group>"; };
+		A995CDBB09E0485072F250C7D9F0C30E /* Motion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Motion-Info.plist"; sourceTree = "<group>"; };
+		A9E38BF7433B5E2F29EEFB104AF0B6F6 /* Motion+UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Motion+UIViewController.swift"; path = "Sources/Extensions/Motion+UIViewController.swift"; sourceTree = "<group>"; };
+		AA90FB8BF2EC37527B02291F648363D1 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		AD3A22EF5C7B741925773D1ADAE56267 /* UIViewController+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Hero.swift"; path = "Sources/Extensions/UIViewController+Hero.swift"; sourceTree = "<group>"; };
+		ADA92E19ED7C2687E17E604625A1A227 /* HeroTransition+Start.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Start.swift"; path = "Sources/Transition/HeroTransition+Start.swift"; sourceTree = "<group>"; };
+		AE5E6740D775177C7F61225104754259 /* HeroPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroPlugin.swift; path = Sources/HeroPlugin.swift; sourceTree = "<group>"; };
+		AED0ADE9CD2772FD00B144A045C994ED /* HeroTransition+Complete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Complete.swift"; path = "Sources/Transition/HeroTransition+Complete.swift"; sourceTree = "<group>"; };
+		B26B3A4AF2B7380D0B6C69020689EB13 /* Hero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-umbrella.h"; sourceTree = "<group>"; };
+		B308FEDF07C8544D0CE2FABE47575F0C /* Pods-inmotion_JulianaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-inmotion_JulianaTests-Info.plist"; sourceTree = "<group>"; };
+		B34B4CF28E1A6CC820641C22F6B7F1D0 /* Pods-inmotion_Juliana-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-inmotion_Juliana-umbrella.h"; sourceTree = "<group>"; };
+		B4394FC4CD5C5F901C730C1D1E5539F2 /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		BA22F5C19F6DC39D2D34221605EC670E /* Pods-inmotion_Juliana-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-inmotion_Juliana-frameworks.sh"; sourceTree = "<group>"; };
+		BBDF0822D3FAC414648ED740CA265934 /* Motion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Motion-dummy.m"; sourceTree = "<group>"; };
+		BC9097B8827E9F8D78AD937930BD1CDB /* HeroDefaultAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDefaultAnimator.swift; path = Sources/Animator/HeroDefaultAnimator.swift; sourceTree = "<group>"; };
+		C14D2636DBF8118F3A3714B670077A90 /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		C2C9804859F3435EBD04378DDDA2380D /* Pods_inmotion_JulianaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_inmotion_JulianaTests.framework; path = "Pods-inmotion_JulianaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C469A0462A60E1C380AFBE5BF9760FBF /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		C4B42D71F025E751A9944D7EF565B67E /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC74E70AD2D32EDAB57DF7C70ABA870B /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC8E2BBF71FE15AF919A4E2D4CD02F8B /* Pods-inmotion_JulianaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-inmotion_JulianaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE23678926B9B5B0308D17127E27F413 /* IgnoreSubviewModifiersPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IgnoreSubviewModifiersPreprocessor.swift; path = Sources/Preprocessors/IgnoreSubviewModifiersPreprocessor.swift; sourceTree = "<group>"; };
+		CE2A337329CABDAE94AC9217298AD221 /* ViewAnimatorConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewAnimatorConfig.swift; path = ViewAnimator/Classes/ViewAnimatorConfig.swift; sourceTree = "<group>"; };
+		CFEB383495821EC269362B50965F36EF /* UIView+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Hero.swift"; path = "Sources/Extensions/UIView+Hero.swift"; sourceTree = "<group>"; };
+		D0F7543BA8F1EAF24AE9CF878FA0DD28 /* Hero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hero.modulemap; sourceTree = "<group>"; };
+		D3FF4C3ACBFF65BCC44114926D4B276B /* UIColor+HexString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Sources/Extensions/UIColor+HexString.swift"; sourceTree = "<group>"; };
+		D6B0FA787402F26917DDBC5486FE31D9 /* MotionTransition+UINavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UINavigationControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UINavigationControllerDelegate.swift"; sourceTree = "<group>"; };
+		D75211B23FB3DF8EC4C4FDBC7CFE85EC /* MotionTransitionObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTransitionObserver.swift; path = Sources/MotionTransitionObserver.swift; sourceTree = "<group>"; };
+		D87C740261747C3E8789A3A1DFEDE1E8 /* HeroCompatible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroCompatible.swift; path = Sources/HeroCompatible.swift; sourceTree = "<group>"; };
+		D8C61852B50C8F59A53F564E52A088C1 /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
+		DD91F6E7C1E6BF8CFFC433748C148152 /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = Sources/MotionAnimation.swift; sourceTree = "<group>"; };
+		E0E2121664589084DC27FA99A9DAD5FE /* MotionTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionTargetState.swift; path = Sources/MotionTargetState.swift; sourceTree = "<group>"; };
+		E1406A89D52C9C9C9D3AE22D73540DEE /* Array+HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+HeroModifier.swift"; path = "Sources/Extensions/Array+HeroModifier.swift"; sourceTree = "<group>"; };
+		E27CEF1457EE46AEAEB7DC9601832425 /* MotionTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/MotionTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
+		E3D814E9F8736F1F2E140100C2DA03F2 /* HeroModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroModifier.swift; path = Sources/HeroModifier.swift; sourceTree = "<group>"; };
+		E40EECD73D8777D5B6106C58922680E3 /* Motion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Motion-prefix.pch"; sourceTree = "<group>"; };
+		E45A1BE0348ED200D86DF6CC225D6C0C /* MotionTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MotionTransition+CustomTransition.swift"; path = "Sources/Transition/MotionTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		E821257907450E04EE7B40E199F37DF3 /* Nodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Nodes.swift; path = Sources/Parser/Nodes.swift; sourceTree = "<group>"; };
+		E9DF31C6D593AAFB5A0DC47FFF69F16E /* ConditionalPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConditionalPreprocessor.swift; path = Sources/Preprocessors/ConditionalPreprocessor.swift; sourceTree = "<group>"; };
+		E9E83947349F7E8028823F3766451329 /* Motion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Motion.framework; path = Motion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC74430605BD19C0FBEEC3C3B52201F8 /* MotionAnimatorViewContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimatorViewContext.swift; path = Sources/Animator/MotionAnimatorViewContext.swift; sourceTree = "<group>"; };
+		EDDFBC8240504E6E1A2B48F62C2A4DF3 /* MotionCorePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionCorePreprocessor.swift; path = Sources/Preprocessors/MotionCorePreprocessor.swift; sourceTree = "<group>"; };
+		EFADAFFD3F53577BF6683AF53F59974A /* Application.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Application.swift; path = Sources/Application.swift; sourceTree = "<group>"; };
+		F07D9F22950BDFBA8C4D267D0CF87AD1 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
+		F1DAFAAE3FF672D337B5039F0DBA47EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UIViewControllerTransitioningDelegate.swift"; path = "Sources/Transition/HeroTransition+UIViewControllerTransitioningDelegate.swift"; sourceTree = "<group>"; };
+		F8B755972C32F4CCBBA6723E831D5E2C /* HeroTargetState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroTargetState.swift; path = Sources/HeroTargetState.swift; sourceTree = "<group>"; };
+		FA6BFD3E4F96FD70A0B26F687DA78C67 /* HeroProgressRunner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroProgressRunner.swift; path = Sources/Transition/HeroProgressRunner.swift; sourceTree = "<group>"; };
+		FB0489784088C7FCB0073783B19BD967 /* Hero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hero.release.xcconfig; sourceTree = "<group>"; };
+		FC998D83052A5EA3455D95B34BA72D82 /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		FDE6C3F2F89AC7FA4752034E04AA5570 /* HeroModifier+Advanced.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+Advanced.swift"; path = "Sources/HeroModifier+Advanced.swift"; sourceTree = "<group>"; };
+		FE830B69237BEE278B235FB285DBAA97 /* Pods-inmotion_JulianaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-inmotion_JulianaTests.release.xcconfig"; sourceTree = "<group>"; };
+		FF0768C1FF5C8F66DDF5EDCA4A9B60B0 /* ViewAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ViewAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		FFAD0F5243579C179CBF5BE07295EC93 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = Sources/Animator/MotionAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05613650A9C7D125F7DA1E159E3BD2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682C1E0F229656FA57C89855943C3916 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1558B78163BCA9219D468BA8CA133038 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C619D9F6C0B5AF20682C8BD9823131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36535A7B888AFE58F76BDA6B07CEB9C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DDE2BE4B4C16826AC30BBC21ACC57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C381192D8749D20AB66D6313986D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C44B715D527026B01E8372CB6D2CFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9753D40ABC00B850B922E91CC99D2C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD1BDD7A5206F43EE5EA0F116BFD7BE /* CoreGraphics.framework in Frameworks */,
+				DD6F354D687662E88A8E9B75ADF0EE95 /* CoreMedia.framework in Frameworks */,
+				37C289CF48713DAB98845988FF35632C /* Foundation.framework in Frameworks */,
+				38297E6B86106DEF51F853B19A64FEFD /* QuartzCore.framework in Frameworks */,
+				1CE44042F73BA78CD14C0B12D60A446E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B4E1FDB2E0D407698AE97B8BEDD7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				673485D58E3E723BC59A27EEEDCE3F26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C72E988C04C3F87D6C0306DF85C4705 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B81C7E2A595AE18A103F8145CB6249B /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				E1406A89D52C9C9C9D3AE22D73540DEE /* Array+HeroModifier.swift */,
+				0C8A5910602A4C94ADB2477DE8D504F4 /* BasePreprocessor.swift */,
+				1E8FBFACB30BDE39B24BB862D99879CB /* CALayer+Hero.swift */,
+				A42FD53828F39421491280DD74C3DFEC /* CAMediaTimingFunction+Hero.swift */,
+				4B8A6765ADB3ACE8767DB12BE0073A4F /* CascadePreprocessor.swift */,
+				89104431E35734331C4C2674FF6E86F6 /* CG+Hero.swift */,
+				987A37EB60FA204E475C30F7FCFD8DFE /* ConditionalPreprocessor.swift */,
+				7FCBF9CEF503DBF3E4C91B7D996067CC /* DefaultAnimationPreprocessor.swift */,
+				3F6FA72157D2A3DCD9B0326F818960DB /* DispatchQueue+Hero.swift */,
+				2721A0E01CC1DE57F945D78EFA43ED5A /* HeroAnimatorViewContext.swift */,
+				D87C740261747C3E8789A3A1DFEDE1E8 /* HeroCompatible.swift */,
+				45756775A8A215384109F92AA475D475 /* HeroContext.swift */,
+				3CF2153C22FB4C88550E30BD5CA711BE /* HeroCoreAnimationViewContext.swift */,
+				D8C61852B50C8F59A53F564E52A088C1 /* HeroDebugPlugin.swift */,
+				0E90DD71A180FBFD74FD4840A8B7EF27 /* HeroDebugView.swift */,
+				BC9097B8827E9F8D78AD937930BD1CDB /* HeroDefaultAnimator.swift */,
+				E3D814E9F8736F1F2E140100C2DA03F2 /* HeroModifier.swift */,
+				FDE6C3F2F89AC7FA4752034E04AA5570 /* HeroModifier+Advanced.swift */,
+				F07D9F22950BDFBA8C4D267D0CF87AD1 /* HeroModifier+HeroStringConvertible.swift */,
+				AE5E6740D775177C7F61225104754259 /* HeroPlugin.swift */,
+				FA6BFD3E4F96FD70A0B26F687DA78C67 /* HeroProgressRunner.swift */,
+				A11198B8193265C12772C0949B3C7212 /* HeroStringConvertible.swift */,
+				F8B755972C32F4CCBBA6723E831D5E2C /* HeroTargetState.swift */,
+				31898517EFBA2FEDB9437E73CA7D3076 /* HeroTransition.swift */,
+				1F44F6DE7281DA1B52B813251C6D5683 /* HeroTransition+Animate.swift */,
+				AED0ADE9CD2772FD00B144A045C994ED /* HeroTransition+Complete.swift */,
+				6EFA101ED30A5A4ABF3256CE015972A7 /* HeroTransition+CustomTransition.swift */,
+				681FF9B5BF418C0BAFD8F75B3DE7DC0A /* HeroTransition+Interactive.swift */,
+				ADA92E19ED7C2687E17E604625A1A227 /* HeroTransition+Start.swift */,
+				574C90A667DABD8661B241A337535901 /* HeroTransition+UINavigationControllerDelegate.swift */,
+				A0FB0F6A5096F52A4D82EDC241620250 /* HeroTransition+UITabBarControllerDelegate.swift */,
+				F1DAFAAE3FF672D337B5039F0DBA47EB /* HeroTransition+UIViewControllerTransitioningDelegate.swift */,
+				3F00A649696C5B5F0DBBD644D2C64948 /* HeroTransitionState.swift */,
+				3FC61D766C632F1C8EA984560E662EC6 /* HeroTypes.swift */,
+				9F06BF56ECC023C276F6489E9469C9F9 /* HeroViewControllerDelegate.swift */,
+				A781FC94F247CE4E22BE44EB77C0C2B8 /* HeroViewPropertyViewContext.swift */,
+				CE23678926B9B5B0308D17127E27F413 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				6488ED445C715524A4FA531E2975ECA4 /* Lexer.swift */,
+				909086A8CE09134D376ED68F550B4427 /* MatchPreprocessor.swift */,
+				E821257907450E04EE7B40E199F37DF3 /* Nodes.swift */,
+				A2E480CAF563176E69C151F7224D92B8 /* Parser.swift */,
+				1926B56B1870EAB5E9835A045D81FE12 /* Regex.swift */,
+				6CD07DF91D86B1C373E8F5A29575A4F1 /* SourcePreprocessor.swift */,
+				3E2194670A8C13803F48BA72B6C79D57 /* SwiftSupport.swift */,
+				D3FF4C3ACBFF65BCC44114926D4B276B /* UIColor+HexString.swift */,
+				60E6E7A9A89C4EB49839AEF454380AA7 /* UIKit+Hero.swift */,
+				CFEB383495821EC269362B50965F36EF /* UIView+Hero.swift */,
+				AD3A22EF5C7B741925773D1ADAE56267 /* UIViewController+Hero.swift */,
+				93D01BC583127860218C92313CABC62D /* Support Files */,
+			);
+			name = Hero;
+			path = Hero;
+			sourceTree = "<group>";
+		};
+		1E5463C2BE1D5631F2C0F8868B51277C /* Pods-inmotion_Juliana */ = {
+			isa = PBXGroup;
+			children = (
+				34C75EBEADADEA70C51C5DF61AB4F0CE /* Pods-inmotion_Juliana.modulemap */,
+				A810B1842BDE524DE310FD2668630321 /* Pods-inmotion_Juliana-acknowledgements.markdown */,
+				2553953DD9081AFAE2357842878D67B3 /* Pods-inmotion_Juliana-acknowledgements.plist */,
+				1FAA1A298B3AD783ECD6638FA89D3C6F /* Pods-inmotion_Juliana-dummy.m */,
+				BA22F5C19F6DC39D2D34221605EC670E /* Pods-inmotion_Juliana-frameworks.sh */,
+				8241C5FE05050C710AE74A62B8666B79 /* Pods-inmotion_Juliana-Info.plist */,
+				B34B4CF28E1A6CC820641C22F6B7F1D0 /* Pods-inmotion_Juliana-umbrella.h */,
+				2422EC294575DDBE9D1091A58A42CC78 /* Pods-inmotion_Juliana.debug.xcconfig */,
+				A02E38F9D95E1B20EE9ED308073AD5C4 /* Pods-inmotion_Juliana.release.xcconfig */,
+			);
+			name = "Pods-inmotion_Juliana";
+			path = "Target Support Files/Pods-inmotion_Juliana";
+			sourceTree = "<group>";
+		};
+		2744799CCCEA14042139A1339CE9D96D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F55E3F02E41FD9D4E4815723ABFBD /* CoreGraphics.framework */,
+				AACC524D69753A1CFD1CE6337E457379 /* CoreMedia.framework */,
+				5A4A29FA4154ED4AF8921F79E1F28488 /* Foundation.framework */,
+				14FB0BC4BCD240F36C82E3E7C5C63AD5 /* QuartzCore.framework */,
+				A4C6D41C20CA1B2F417528568D7645B0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		334CFDE3DCCF3B0537F4ACF8844BFA26 /* Motion */ = {
+			isa = PBXGroup;
+			children = (
+				D9D902124230FEA832D819A0C9EF1187 /* Core */,
+				F1739E5AA8EDA85F18D49276BD1F53C6 /* Support Files */,
+			);
+			name = Motion;
+			path = Motion;
+			sourceTree = "<group>";
+		};
+		3B0E65F5926B54EDE294B8DF8968EEF1 /* Pods-inmotion_Juliana-inmotion_JulianaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A13B3FB965BF26776E199B62346EDAF /* Pods-inmotion_Juliana-inmotion_JulianaUITests.modulemap */,
+				643579593A3C74654CBFFF5FACE16CB8 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.markdown */,
+				12C02DE41C73D773ACFAD126880A82EA /* Pods-inmotion_Juliana-inmotion_JulianaUITests-acknowledgements.plist */,
+				011624A162AE3741306B87A952842E64 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m */,
+				721D4FBF0576667532BA2363C37C95A3 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks.sh */,
+				3168B91522E9A2B8D249676967184EF8 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-Info.plist */,
+				12BAEE01C2B49FC7DD9C3FE110E93C07 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h */,
+				C4B42D71F025E751A9944D7EF565B67E /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */,
+				CC74E70AD2D32EDAB57DF7C70ABA870B /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */,
+			);
+			name = "Pods-inmotion_Juliana-inmotion_JulianaUITests";
+			path = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests";
+			sourceTree = "<group>";
+		};
+		43BFD2CE006D8105F6E5357711BAB174 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDCB4C0E6FA3E9A587BF4F0E8A809BA /* ViewAnimator.modulemap */,
+				A139BBFD5CD6AE7BE5514664A63B7EB0 /* ViewAnimator-dummy.m */,
+				9AE610236A9FFCD12357F76A9A065637 /* ViewAnimator-Info.plist */,
+				18BB4956B37204D5D1D4AB73B6344E8D /* ViewAnimator-prefix.pch */,
+				51F74B74B836F83EE808C4A19A7B03B3 /* ViewAnimator-umbrella.h */,
+				FF0768C1FF5C8F66DDF5EDCA4A9B60B0 /* ViewAnimator.debug.xcconfig */,
+				24C68AB82F73130B2DF5CACC7EE7C67E /* ViewAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ViewAnimator";
+			sourceTree = "<group>";
+		};
+		93D01BC583127860218C92313CABC62D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F7543BA8F1EAF24AE9CF878FA0DD28 /* Hero.modulemap */,
+				46C26786329979005277004F9FA8CF00 /* Hero-dummy.m */,
+				4BCD7AADADA8B192960F63E53E723ACA /* Hero-Info.plist */,
+				7DADD04F9A6C8D4534765F32CEA53112 /* Hero-prefix.pch */,
+				B26B3A4AF2B7380D0B6C69020689EB13 /* Hero-umbrella.h */,
+				A52E3858F159F478E4DE14712C669847 /* Hero.debug.xcconfig */,
+				FB0489784088C7FCB0073783B19BD967 /* Hero.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		9E1BED2D8898B102CEED9962B61072DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B81C7E2A595AE18A103F8145CB6249B /* Hero */,
+				334CFDE3DCCF3B0537F4ACF8844BFA26 /* Motion */,
+				D10E5D7A12986877A176397D35654816 /* TinyConstraints */,
+				DB007FAD2ED51B24D7053673E9352172 /* ViewAnimator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE47AD0A205DA156CB7FC51B596A27F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4394FC4CD5C5F901C730C1D1E5539F2 /* TinyConstraints.modulemap */,
+				A56550C7097D72F5155A4C5B721F3E3D /* TinyConstraints-dummy.m */,
+				069F55FAD9BCCE695F5F3EC4B99EB677 /* TinyConstraints-Info.plist */,
+				AA90FB8BF2EC37527B02291F648363D1 /* TinyConstraints-prefix.pch */,
+				00D1E134F1F9EA72E6ABD2EB0EEBD5B6 /* TinyConstraints-umbrella.h */,
+				C14D2636DBF8118F3A3714B670077A90 /* TinyConstraints.debug.xcconfig */,
+				9A422CB690BF593EFB83827A1ED28692 /* TinyConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2744799CCCEA14042139A1339CE9D96D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
+				9E1BED2D8898B102CEED9962B61072DE /* Pods */,
+				EFBEEF2BA5F365F0E08143F12646537D /* Products */,
+				D01015C91417DADAE6420843BA21AA72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D01015C91417DADAE6420843BA21AA72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E5463C2BE1D5631F2C0F8868B51277C /* Pods-inmotion_Juliana */,
+				3B0E65F5926B54EDE294B8DF8968EEF1 /* Pods-inmotion_Juliana-inmotion_JulianaUITests */,
+				EC220850C6F1FFA0365A87C15B042FAC /* Pods-inmotion_JulianaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D10E5D7A12986877A176397D35654816 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				FC998D83052A5EA3455D95B34BA72D82 /* Abstraction.swift */,
+				4B936E1EAA6EDE929248797246E3C3AC /* Constrainable.swift */,
+				C469A0462A60E1C380AFBE5BF9760FBF /* Constraints.swift */,
+				35A5550BC77F718BFCE9D18BC61EEE79 /* Stack.swift */,
+				A266F9824CA84278AB7A807CE3FF3FFB /* TinyConstraints.swift */,
+				9416A0A5AEB020DAE74A49A5267F2D93 /* TinyConstraints+superview.swift */,
+				A56A46E6EB4B20B6B94E180E64D10075 /* TinyEdgeInsets.swift */,
+				AE47AD0A205DA156CB7FC51B596A27F3 /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		D9D902124230FEA832D819A0C9EF1187 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EFADAFFD3F53577BF6683AF53F59974A /* Application.swift */,
+				87387344179107730DAF2E725C0330F7 /* CascadePreprocessor.swift */,
+				E9DF31C6D593AAFB5A0DC47FFF69F16E /* ConditionalPreprocessor.swift */,
+				88A164B84B469EB99204A2EACC694BC0 /* IgnoreSubviewModifiersPreprocessor.swift */,
+				2F082C4740817E3C980B6411121EBCF4 /* MatchPreprocessor.swift */,
+				98892959562E7274BD3815517BDCAF73 /* Motion+Array.swift */,
+				701412468BB8B0CD949326F37409A3FB /* Motion+CALayer.swift */,
+				3AD31D6AFF3780B4F8979465CAEDCB7F /* Motion+CAMediaTimingFunction.swift */,
+				413EA978C81A5951D5F1CE35F1C34B95 /* Motion+CG.swift */,
+				06DCFAF42D192B97E6F17B487920D1BD /* Motion+Obj-C.swift */,
+				7DA56FEE4649BA27360934B099063773 /* Motion+UIKit.swift */,
+				1D05C9A2735BF603D33B23800B9E579B /* Motion+UIView.swift */,
+				A9E38BF7433B5E2F29EEFB104AF0B6F6 /* Motion+UIViewController.swift */,
+				DD91F6E7C1E6BF8CFFC433748C148152 /* MotionAnimation.swift */,
+				572B631384BDE817CCC79AA5459D896C /* MotionAnimationState.swift */,
+				FFAD0F5243579C179CBF5BE07295EC93 /* MotionAnimator.swift */,
+				EC74430605BD19C0FBEEC3C3B52201F8 /* MotionAnimatorViewContext.swift */,
+				3E04446A34F1A705069D83A0CEF381EA /* MotionCAAnimation.swift */,
+				76574655B98309ACB107E9E283C0C0D2 /* MotionContext.swift */,
+				3B58B4D6622988DB1ADFE99D3731B7F8 /* MotionCoordinateSpace.swift */,
+				910CD17BFFE375F8634EA80613E18954 /* MotionCoreAnimationViewContext.swift */,
+				71BF67992079FB47702FC861B1EEE916 /* MotionCoreAnimator.swift */,
+				EDDFBC8240504E6E1A2B48F62C2A4DF3 /* MotionCorePreprocessor.swift */,
+				831D5476A2505FFA4A40F4C118EFEF46 /* MotionModifier.swift */,
+				3F7BD2F0A7E6C6F95F500159676C476D /* MotionPlugin.swift */,
+				100AA2EAD79561E89E5E1F73A7619DAA /* MotionPreprocessor.swift */,
+				3475FA4C0CF7D74D1855CBF4F4B60E89 /* MotionProgressRunner.swift */,
+				5290ECB4F2C97775A7E817D90BE5767A /* MotionSnapshotType.swift */,
+				E0E2121664589084DC27FA99A9DAD5FE /* MotionTargetState.swift */,
+				0B1BDC3F2F1F82936DD686BB26365D43 /* MotionTransition.swift */,
+				A771E3A36AD88159EE63BBA4E13261B0 /* MotionTransition+Animate.swift */,
+				013C89F57DBD2800BFA07D7169AAD8DD /* MotionTransition+Complete.swift */,
+				E45A1BE0348ED200D86DF6CC225D6C0C /* MotionTransition+CustomTransition.swift */,
+				88F8927AEEA4D02E6646F537CBD81F6C /* MotionTransition+Interactive.swift */,
+				1EE366DD17EBC90527B6226B0D5163A7 /* MotionTransition+Start.swift */,
+				D6B0FA787402F26917DDBC5486FE31D9 /* MotionTransition+UINavigationControllerDelegate.swift */,
+				E27CEF1457EE46AEAEB7DC9601832425 /* MotionTransition+UITabBarControllerDelegate.swift */,
+				426D287B8D83BFC5E7B222D6D7C89E2F /* MotionTransition+UIViewControllerTransitioningDelegate.swift */,
+				D75211B23FB3DF8EC4C4FDBC7CFE85EC /* MotionTransitionObserver.swift */,
+				2668BDB44C12BC5F02265787906CFFD5 /* MotionViewOrderStrategy.swift */,
+				9F39CA0BA1A13CFD7B96F9A3E885A100 /* MotionViewPropertyViewContext.swift */,
+				6CD8EDEDDDB5B301A661D8B2A2687EC1 /* MotionViewTransition.swift */,
+				A64C249EDE0ADC1534D8ABEBDF4D5A9E /* MotionViewTransitionAnimator.swift */,
+				459B5DE00D7154AF220732D782509D00 /* SourcePreprocessor.swift */,
+				2DCFEA2AFF5860F37826AFBA668356DD /* TransitionPreprocessor.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		DB007FAD2ED51B24D7053673E9352172 /* ViewAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				9587035CC656650116E40112CD66A9B9 /* Animation.swift */,
+				979981852039C66C15623EBAE4478EED /* AnimationType.swift */,
+				8390A84D9E55944421AC2A49E058D694 /* Direction.swift */,
+				386E74B964763BEFAFE8D2989593192F /* UICollectionView + ViewAnimator.swift */,
+				9428BC4C1A4BE987B91C49BF2054A6F7 /* UITableView + ViewAnimator.swift */,
+				91B3BA37CC8E641BAC8332BFF5A217E2 /* ViewAnimator.swift */,
+				CE2A337329CABDAE94AC9217298AD221 /* ViewAnimatorConfig.swift */,
+				43BFD2CE006D8105F6E5357711BAB174 /* Support Files */,
+			);
+			name = ViewAnimator;
+			path = ViewAnimator;
+			sourceTree = "<group>";
+		};
+		EC220850C6F1FFA0365A87C15B042FAC /* Pods-inmotion_JulianaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C2D318F3B9C3A705503FEE737FBF14 /* Pods-inmotion_JulianaTests.modulemap */,
+				CC8E2BBF71FE15AF919A4E2D4CD02F8B /* Pods-inmotion_JulianaTests-acknowledgements.markdown */,
+				198E780B4BDF3270FCAC8CDFC4970372 /* Pods-inmotion_JulianaTests-acknowledgements.plist */,
+				5052FFE3282474BA83311CD5C3A593AE /* Pods-inmotion_JulianaTests-dummy.m */,
+				B308FEDF07C8544D0CE2FABE47575F0C /* Pods-inmotion_JulianaTests-Info.plist */,
+				A828A2258B0430B9B0A703A4B4170AD9 /* Pods-inmotion_JulianaTests-umbrella.h */,
+				2C64A1F78E1847028DF69181BD53772F /* Pods-inmotion_JulianaTests.debug.xcconfig */,
+				FE830B69237BEE278B235FB285DBAA97 /* Pods-inmotion_JulianaTests.release.xcconfig */,
+			);
+			name = "Pods-inmotion_JulianaTests";
+			path = "Target Support Files/Pods-inmotion_JulianaTests";
+			sourceTree = "<group>";
+		};
+		EFBEEF2BA5F365F0E08143F12646537D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */,
+				E9E83947349F7E8028823F3766451329 /* Motion.framework */,
+				98A2CBA77D91EBCE0A5AA207486880FE /* Pods_inmotion_Juliana.framework */,
+				1565544DAF4EFDD68E15D62EDA656553 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */,
+				C2C9804859F3435EBD04378DDDA2380D /* Pods_inmotion_JulianaTests.framework */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+				A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1739E5AA8EDA85F18D49276BD1F53C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C7DF75C9D702F2F72A93355D4EAFC /* Motion.modulemap */,
+				BBDF0822D3FAC414648ED740CA265934 /* Motion-dummy.m */,
+				A995CDBB09E0485072F250C7D9F0C30E /* Motion-Info.plist */,
+				E40EECD73D8777D5B6106C58922680E3 /* Motion-prefix.pch */,
+				0F3117B2D257C402889679B7A8A8563A /* Motion-umbrella.h */,
+				9A55350ED5DCB092D1EA2082E84E28AE /* Motion.debug.xcconfig */,
+				7C7EEDBBBF8421B6BD022DD039301191 /* Motion.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Motion";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38E734E22B436AFE465CB6F5E4A7F6E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750DDB697C338B480D042918A1A6231E /* Pods-inmotion_JulianaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586D86677A4D250A08B153E9123AB084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F9048D223DEDF25F5F017A0C160939 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		977EC996CB490E364DF9BFBD2669EE60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28ED22D50E807703BDE53652BDB3BDA0 /* Hero-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FE3D0A640F390EA7AEA8E88F47DEDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F686C87FC60238F640B1973302B6D08 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C01257361E898E374FB0A6911FB063C7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86E16112E3DA618AA6046E09E11B1FD5 /* ViewAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E1FEE90B5FDFA5866F8FDAB38B420A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2D49280F7EF6313D1CD9BD0C60F511 /* Motion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F999EC3362FE0A4882ABF187DA719E54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6414A3C946047A5BD480F77CBCA3D5D3 /* Pods-inmotion_Juliana-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED162CA822CAFF9F3B82904FBA2988C /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				98FE3D0A640F390EA7AEA8E88F47DEDA /* Headers */,
+				B22F16F1C73358E59AE260C86E3D1F1D /* Sources */,
+				36535A7B888AFE58F76BDA6B07CEB9C6 /* Frameworks */,
+				7465A1319E37DADA12A8BAEB409143AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7820C9B8B159A92118F0B9E17AE99CAA /* Pods-inmotion_Juliana-inmotion_JulianaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D61C52FB07387843C065A27DB40DF54 /* Build configuration list for PBXNativeTarget "Pods-inmotion_Juliana-inmotion_JulianaUITests" */;
+			buildPhases = (
+				586D86677A4D250A08B153E9123AB084 /* Headers */,
+				7527063BCC33FA7DB21ED0398E22F883 /* Sources */,
+				05613650A9C7D125F7DA1E159E3BD2C8 /* Frameworks */,
+				4E7157F4D590A78E1727312C572B0E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0495747569CCFB23884CBBF0F30C3E96 /* PBXTargetDependency */,
+				E91C2CFF88CF79543766C8BF9567F9D0 /* PBXTargetDependency */,
+				DCC27F09B965B21FF6739E7C31A4DA5A /* PBXTargetDependency */,
+				2E36208A476F7576F5D42D2647C45E6E /* PBXTargetDependency */,
+			);
+			name = "Pods-inmotion_Juliana-inmotion_JulianaUITests";
+			productName = "Pods-inmotion_Juliana-inmotion_JulianaUITests";
+			productReference = 1565544DAF4EFDD68E15D62EDA656553 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86E404175A89C8D9B95BB2E46457C4B3 /* Pods-inmotion_Juliana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0538886AE6516DAA0032EB66B756DB30 /* Build configuration list for PBXNativeTarget "Pods-inmotion_Juliana" */;
+			buildPhases = (
+				F999EC3362FE0A4882ABF187DA719E54 /* Headers */,
+				BAAFFD48D8F2394DF7649D43BA016AC8 /* Sources */,
+				1558B78163BCA9219D468BA8CA133038 /* Frameworks */,
+				3D9D99BBC204423F51F87525A0F9BE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474C080434A8C41DFC3D8E9918415B33 /* PBXTargetDependency */,
+				6D393A058077D7C4E4C38DFF48C6864C /* PBXTargetDependency */,
+				B5D0071A28F36B04695E395E14871581 /* PBXTargetDependency */,
+				D78FA4325C6384ED4D83F9B7D86FBEDD /* PBXTargetDependency */,
+			);
+			name = "Pods-inmotion_Juliana";
+			productName = "Pods-inmotion_Juliana";
+			productReference = 98A2CBA77D91EBCE0A5AA207486880FE /* Pods_inmotion_Juliana.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */;
+			buildPhases = (
+				C01257361E898E374FB0A6911FB063C7 /* Headers */,
+				3A823987FFCB5C3726EBB7A32E3B904E /* Sources */,
+				D2F8CEE48F5E5B43BF343771890BDE66 /* Frameworks */,
+				2954910303CBA399A078839A2F6CEC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewAnimator;
+			productName = ViewAnimator;
+			productReference = A76921F7329D552AD6FA723972B6337A /* ViewAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9312109646DF39EBE725AD8F96A8C18B /* Motion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD85ED2280C8B28A283D153F13DDC5DA /* Build configuration list for PBXNativeTarget "Motion" */;
+			buildPhases = (
+				C7E1FEE90B5FDFA5866F8FDAB38B420A /* Headers */,
+				FDA1016BE3D9546E8733F857752E5890 /* Sources */,
+				D0B4E1FDB2E0D407698AE97B8BEDD7E7 /* Frameworks */,
+				E44A7EFC07DF629596FE9ACAEA46E64B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Motion;
+			productName = Motion;
+			productReference = E9E83947349F7E8028823F3766451329 /* Motion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B3893AEA4D7DBB9A086E889FC469132D /* Hero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8FE3182F7A698B2443CEBCF9A30678 /* Build configuration list for PBXNativeTarget "Hero" */;
+			buildPhases = (
+				977EC996CB490E364DF9BFBD2669EE60 /* Headers */,
+				9F3468E0B453FDC78874FB3004AE6603 /* Sources */,
+				9753D40ABC00B850B922E91CC99D2C9B /* Frameworks */,
+				A5EEE57DDAA76478FBAAE5512E4E4136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hero;
+			productName = Hero;
+			productReference = 13E778F4B833EE5D7ABE882406A8215E /* Hero.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F072DCC642C8DB8E4AC5E5BEEC8861EF /* Pods-inmotion_JulianaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E123BC9F133F613945109CEEFA900DD /* Build configuration list for PBXNativeTarget "Pods-inmotion_JulianaTests" */;
+			buildPhases = (
+				38E734E22B436AFE465CB6F5E4A7F6E0 /* Headers */,
+				B7FEBEE7D09EF359E0D6E352F2095274 /* Sources */,
+				95C381192D8749D20AB66D6313986D59 /* Frameworks */,
+				9042FB4CBE1A5C6DB6B4E21C85A30014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99AC0084F0C0D3EB82D133949CB97EF /* PBXTargetDependency */,
+			);
+			name = "Pods-inmotion_JulianaTests";
+			productName = "Pods-inmotion_JulianaTests";
+			productReference = C2C9804859F3435EBD04378DDDA2380D /* Pods_inmotion_JulianaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EFBEEF2BA5F365F0E08143F12646537D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3893AEA4D7DBB9A086E889FC469132D /* Hero */,
+				9312109646DF39EBE725AD8F96A8C18B /* Motion */,
+				86E404175A89C8D9B95BB2E46457C4B3 /* Pods-inmotion_Juliana */,
+				7820C9B8B159A92118F0B9E17AE99CAA /* Pods-inmotion_Juliana-inmotion_JulianaUITests */,
+				F072DCC642C8DB8E4AC5E5BEEC8861EF /* Pods-inmotion_JulianaTests */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
+				91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2954910303CBA399A078839A2F6CEC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D9D99BBC204423F51F87525A0F9BE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E7157F4D590A78E1727312C572B0E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7465A1319E37DADA12A8BAEB409143AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9042FB4CBE1A5C6DB6B4E21C85A30014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EEE57DDAA76478FBAAE5512E4E4136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44A7EFC07DF629596FE9ACAEA46E64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A823987FFCB5C3726EBB7A32E3B904E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CDDC315D072611DC4E0E8D7B2B399B /* Animation.swift in Sources */,
+				FB5B2EF00978168F84353DD89B808567 /* AnimationType.swift in Sources */,
+				44A41A19C4EBB3E69F800EF54C82A661 /* Direction.swift in Sources */,
+				2AC30876C833990D744C30FF47B32EE8 /* UICollectionView + ViewAnimator.swift in Sources */,
+				3D24A0293788B6740CA06D127A930F02 /* UITableView + ViewAnimator.swift in Sources */,
+				297F85DE0BF70E0BBCFC55A4EABE3AF7 /* ViewAnimator-dummy.m in Sources */,
+				46935F12196B8113019740EA716549BB /* ViewAnimator.swift in Sources */,
+				BD6DCC1280FBF8802E8256E27E72608D /* ViewAnimatorConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7527063BCC33FA7DB21ED0398E22F883 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B63469F645B8753B20BB6C0BCA70721 /* Pods-inmotion_Juliana-inmotion_JulianaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3468E0B453FDC78874FB3004AE6603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000FB9EDA233684DCE3C0D776F682440 /* Array+HeroModifier.swift in Sources */,
+				971DE19A2425C011DEA7F234EF9DFB3D /* BasePreprocessor.swift in Sources */,
+				DCEB1D1D97936446FFCC775B87820D76 /* CALayer+Hero.swift in Sources */,
+				596395B6FA3AB7BE5E2986C1057FFB51 /* CAMediaTimingFunction+Hero.swift in Sources */,
+				981E678C694BD6CB6E47750023C41356 /* CascadePreprocessor.swift in Sources */,
+				8675FAF0C389A827D865B4231B097350 /* CG+Hero.swift in Sources */,
+				E14591ACB8E8B67FA53C24B992997EB6 /* ConditionalPreprocessor.swift in Sources */,
+				B4A5070619398ABCE3153716A8B1FD39 /* DefaultAnimationPreprocessor.swift in Sources */,
+				AB333ACA619804B14FDACD4892AD0F33 /* DispatchQueue+Hero.swift in Sources */,
+				BE63C2C8EC7B15BE0848D01ED7125E86 /* Hero-dummy.m in Sources */,
+				AEDEEFE01BDC994BB676D0C6C4EA0B4F /* HeroAnimatorViewContext.swift in Sources */,
+				2F24C371BA4C2962F44ACC8E17667583 /* HeroCompatible.swift in Sources */,
+				BAA6B8A757D1C7D80877064966A6F57D /* HeroContext.swift in Sources */,
+				C6EEAC88D46661939CEC80B9C757D646 /* HeroCoreAnimationViewContext.swift in Sources */,
+				F67D13F1DF0DD6F7271E3B94CCA8AC22 /* HeroDebugPlugin.swift in Sources */,
+				86F6100A3164708D9449C570776E4A53 /* HeroDebugView.swift in Sources */,
+				611B67BEEBA7FB3983E8D9AC3796A551 /* HeroDefaultAnimator.swift in Sources */,
+				8267702DC8728FA8827B0E9F5850D564 /* HeroModifier+Advanced.swift in Sources */,
+				76259741C02A8C73A3015C5D2DA496CA /* HeroModifier+HeroStringConvertible.swift in Sources */,
+				B761609304C53DD165E21D6979C187FA /* HeroModifier.swift in Sources */,
+				4C0109B9064995D017EF8BA9471065BD /* HeroPlugin.swift in Sources */,
+				C404ABC8391D8C5678272EA2B7149664 /* HeroProgressRunner.swift in Sources */,
+				561B43E02C4CC483EEAC28AE2C961D3D /* HeroStringConvertible.swift in Sources */,
+				E259639E8D936042ECD20840FBBD4EC8 /* HeroTargetState.swift in Sources */,
+				0E2025F3049EB290C9C701EB7697FD83 /* HeroTransition+Animate.swift in Sources */,
+				D0F527FECD9CDE6E33868A911863F3A2 /* HeroTransition+Complete.swift in Sources */,
+				0C8C91A946F029E0110E06480F600A47 /* HeroTransition+CustomTransition.swift in Sources */,
+				4DD18CA1B0628DA289B294D2106D55A3 /* HeroTransition+Interactive.swift in Sources */,
+				DC2F67DD3163291EB40DC85B0D8BFD12 /* HeroTransition+Start.swift in Sources */,
+				783190536DC8297B50B399D8250F2032 /* HeroTransition+UINavigationControllerDelegate.swift in Sources */,
+				63D62B669C1B1D76B8FA2AEE51AF2863 /* HeroTransition+UITabBarControllerDelegate.swift in Sources */,
+				0703CE26B7245672B91E0B78E1281E44 /* HeroTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				38406719BDA0D1C99B94A33EB1BF2AA1 /* HeroTransition.swift in Sources */,
+				5D561331EDDD8446C2C74304EF534F0B /* HeroTransitionState.swift in Sources */,
+				DB289656E21B490DA80311AD52DBA5C0 /* HeroTypes.swift in Sources */,
+				143BC48EA7B427B9F43FBF38C1209904 /* HeroViewControllerDelegate.swift in Sources */,
+				565C22E5071430F1DB95C884B2CF9D00 /* HeroViewPropertyViewContext.swift in Sources */,
+				E65E75D9FF3AD6FD21154DE84D1AE4FA /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				0A3AA2E0FDAF8A8858240069811996EA /* Lexer.swift in Sources */,
+				7077E7A72EB1E524F2EF25029B712F2F /* MatchPreprocessor.swift in Sources */,
+				9BF3A86AFAFDA9B4C5150324F3DFD0D3 /* Nodes.swift in Sources */,
+				B6AE25C51BED9621BBA67FE397452160 /* Parser.swift in Sources */,
+				F4DD189E36C289688DD2187E0A38D96F /* Regex.swift in Sources */,
+				80538854F50E894E283C87058249C10C /* SourcePreprocessor.swift in Sources */,
+				A7EA1BA19DDD7C4C829D4E8BCB133B5D /* SwiftSupport.swift in Sources */,
+				85908A69CE5A0C54998A6D597BDB062F /* UIColor+HexString.swift in Sources */,
+				E05D3E5962B58A2AE76850E534A24C7B /* UIKit+Hero.swift in Sources */,
+				D99F7D4FA69590F4F4DE4234BC19616A /* UIView+Hero.swift in Sources */,
+				D5B6C3D9C30E853925EDFD6F6B2F735A /* UIViewController+Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22F16F1C73358E59AE260C86E3D1F1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF984D0BDE08492C60CC2D9C75E2C96 /* Abstraction.swift in Sources */,
+				EAB56C7B2652650A976538B12FBAC59D /* Constrainable.swift in Sources */,
+				CBF8630B51B556B1D93FF064C433A66E /* Constraints.swift in Sources */,
+				DF7A6BC0D371FF7ECA74781F562C475F /* Stack.swift in Sources */,
+				80C64F8B50FDB2E25A939480C3FEC43A /* TinyConstraints+superview.swift in Sources */,
+				602071FBBC9CE2E7E138D4B67223D4A9 /* TinyConstraints-dummy.m in Sources */,
+				0D24FEFEF4298905C4AE3E9FC22DBC38 /* TinyConstraints.swift in Sources */,
+				CCAEE4BF0C676D5173590E04D29BAE92 /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FEBEE7D09EF359E0D6E352F2095274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC186742EFAC4F4676F2EDA5C5D1914 /* Pods-inmotion_JulianaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAAFFD48D8F2394DF7649D43BA016AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E673BFD5E40FEDE64FBD3549DA5CD0FA /* Pods-inmotion_Juliana-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA1016BE3D9546E8733F857752E5890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309085917AC5FD9D654C363A2A5B71FC /* Application.swift in Sources */,
+				E664CEC0E95D6F7242F91D8A2C635E94 /* CascadePreprocessor.swift in Sources */,
+				0D6340000725FA261C356F5844046E5F /* ConditionalPreprocessor.swift in Sources */,
+				727D2688A4CFB2A4AA5B09CCCDF7C74E /* IgnoreSubviewModifiersPreprocessor.swift in Sources */,
+				463FD6A64039CEFC08F380913D5112EB /* MatchPreprocessor.swift in Sources */,
+				1E25D0C11649C68786B4A6CABD3FF20B /* Motion+Array.swift in Sources */,
+				3F25DECA9F12C5D46B1629A88DE09621 /* Motion+CALayer.swift in Sources */,
+				D43CF3D128D71F638E31FF421C232288 /* Motion+CAMediaTimingFunction.swift in Sources */,
+				CECCA4016CB0E03AC93D7D5E1CD9EEF3 /* Motion+CG.swift in Sources */,
+				26E3ED878E28AEF14F803A748CFC2218 /* Motion+Obj-C.swift in Sources */,
+				8D59937E268F2B5B029299E991D8FCFC /* Motion+UIKit.swift in Sources */,
+				1723196E0187F2A8B97AB671B5F2AEA3 /* Motion+UIView.swift in Sources */,
+				7EBF65FFF704A20C1A427282812A4DF9 /* Motion+UIViewController.swift in Sources */,
+				7475667CD310E7FCE432B72F495B41F0 /* Motion-dummy.m in Sources */,
+				5CE57DFE0211DF2136F0D85EC0DF8443 /* MotionAnimation.swift in Sources */,
+				10B765CA2F74DA786B5BBEFFE9289821 /* MotionAnimationState.swift in Sources */,
+				D41AA4853889F1497204B42CC4D4CADD /* MotionAnimator.swift in Sources */,
+				46A22027CDD3A3831A9105231E59D644 /* MotionAnimatorViewContext.swift in Sources */,
+				CB65147BF39BD2DD62EFD8F5D7DFCA9E /* MotionCAAnimation.swift in Sources */,
+				92690DBB54CE74542B1FC22405F0D9C8 /* MotionContext.swift in Sources */,
+				5BBADFDBFEC30D9C9F2627A9B94E72D7 /* MotionCoordinateSpace.swift in Sources */,
+				BBAEF217A622EFBF030DDA62BDDCC3F3 /* MotionCoreAnimationViewContext.swift in Sources */,
+				4BBB1A77132D1CCFE01CAC2242CAB1EA /* MotionCoreAnimator.swift in Sources */,
+				AF95EF2E96454B2C6C012E6BA8A0378C /* MotionCorePreprocessor.swift in Sources */,
+				3A1E44777BED307F736D2CCAC4A0AE42 /* MotionModifier.swift in Sources */,
+				EE48C3FC740CB4CA3AC6C98BF9140F3A /* MotionPlugin.swift in Sources */,
+				61D5969CA992B1CBEF0238B8A470DE3C /* MotionPreprocessor.swift in Sources */,
+				0483A5EE4459E09CF5EB4DDB093F96D4 /* MotionProgressRunner.swift in Sources */,
+				E8133E0BBF2E19FCD351647A99541630 /* MotionSnapshotType.swift in Sources */,
+				C5B3D2DD090E72F27A6F3C0D59F2FB2E /* MotionTargetState.swift in Sources */,
+				C6FCAEC50CBB29B4F5620461E5D1093D /* MotionTransition+Animate.swift in Sources */,
+				7B2A1D2FB096F281699C755ABD3B69FE /* MotionTransition+Complete.swift in Sources */,
+				4230F9BB88BCF9953ED165FDB21F6822 /* MotionTransition+CustomTransition.swift in Sources */,
+				412205B2EE2130643BE11BBC022960FD /* MotionTransition+Interactive.swift in Sources */,
+				E4A3E04C6DB15F417020D3433BBDBD13 /* MotionTransition+Start.swift in Sources */,
+				C7EB9B0DA81C61394FCE3E60CF8DA326 /* MotionTransition+UINavigationControllerDelegate.swift in Sources */,
+				ACEBA1427D7AB3EC0693F8AA34DEE682 /* MotionTransition+UITabBarControllerDelegate.swift in Sources */,
+				6A4789BE97AFBE65662059B1A413A305 /* MotionTransition+UIViewControllerTransitioningDelegate.swift in Sources */,
+				0B2F1C80C8A34AA1B49B13A59B204A14 /* MotionTransition.swift in Sources */,
+				74B31609FF8CFA6616E9FAE49A8D12BD /* MotionTransitionObserver.swift in Sources */,
+				B9BE1785A558A68475ECB09E5FA9D25B /* MotionViewOrderStrategy.swift in Sources */,
+				C160270D031A31FE3692625E097086CE /* MotionViewPropertyViewContext.swift in Sources */,
+				7E624A7936D0667CE4DF05EEC9E9CB12 /* MotionViewTransition.swift in Sources */,
+				AA9123964E64CB4F45663E479DD770C4 /* MotionViewTransitionAnimator.swift in Sources */,
+				7817A86B5095EE85E0B1C07BA52E5AC5 /* SourcePreprocessor.swift in Sources */,
+				3D3F536AE3B564EF5DDE0F5E97016C56 /* TransitionPreprocessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0495747569CCFB23884CBBF0F30C3E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
+			targetProxy = 6C122AB81AB8E09EA7B36DD58AD742E4 /* PBXContainerItemProxy */;
+		};
+		2E36208A476F7576F5D42D2647C45E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
+			targetProxy = D5C4744EDBBBB87AF1F444F4E5B0FB72 /* PBXContainerItemProxy */;
+		};
+		474C080434A8C41DFC3D8E9918415B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = B3893AEA4D7DBB9A086E889FC469132D /* Hero */;
+			targetProxy = 7403A041D25751FE4718E0AB7EFEB78A /* PBXContainerItemProxy */;
+		};
+		6D393A058077D7C4E4C38DFF48C6864C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
+			targetProxy = 72A77A2204D7855C12C97B4438839EAC /* PBXContainerItemProxy */;
+		};
+		B5D0071A28F36B04695E395E14871581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = BBC3DFA8BE93B66B5E0FA1B2536334EB /* PBXContainerItemProxy */;
+		};
+		D78FA4325C6384ED4D83F9B7D86FBEDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ViewAnimator;
+			target = 91BFC2827E7E6E2B51AB2CFF58AC6317 /* ViewAnimator */;
+			targetProxy = AC3B5CD87DC7FD4BD75E52BABD5DEA6C /* PBXContainerItemProxy */;
+		};
+		DCC27F09B965B21FF6739E7C31A4DA5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 97AAAB47A00D9EBAA4CF882E8D1E08A3 /* PBXContainerItemProxy */;
+		};
+		E91C2CFF88CF79543766C8BF9567F9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Motion;
+			target = 9312109646DF39EBE725AD8F96A8C18B /* Motion */;
+			targetProxy = CD5FFE9531FDFA36FD817AFF2A198C9C /* PBXContainerItemProxy */;
+		};
+		F99AC0084F0C0D3EB82D133949CB97EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-inmotion_Juliana";
+			target = 86E404175A89C8D9B95BB2E46457C4B3 /* Pods-inmotion_Juliana */;
+			targetProxy = F830A3074CE8CCA09081B5A6A1A45228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D945B41107BEF5381560AF6D869532F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE830B69237BEE278B235FB285DBAA97 /* Pods-inmotion_JulianaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1AEC8811CD04A1575D6F1863CE81DA4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0768C1FF5C8F66DDF5EDCA4A9B60B0 /* ViewAnimator.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C521F8B1B1BA52067C72DA66D95D0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C64A1F78E1847028DF69181BD53772F /* Pods-inmotion_JulianaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C710EFBD7CAF3CDF00245E8B83621C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4B42D71F025E751A9944D7EF565B67E /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20A99D8C078DD58E409AF7068FADB873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A55350ED5DCB092D1EA2082E84E28AE /* Motion.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25C01E5CEA3462FCF5135F44D51BF02A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2422EC294575DDBE9D1091A58A42CC78 /* Pods-inmotion_Juliana.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		311860A48D847F6D6BA86430DB0526EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7EEDBBBF8421B6BD022DD039301191 /* Motion.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Motion/Motion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Motion/Motion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Motion/Motion.modulemap";
+				PRODUCT_MODULE_NAME = Motion;
+				PRODUCT_NAME = Motion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CD53A645C9C5E9972743B975E555437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02E38F9D95E1B20EE9ED308073AD5C4 /* Pods-inmotion_Juliana.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5174AF0CBFCB57F6F8E78B901A5387A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C14D2636DBF8118F3A3714B670077A90 /* TinyConstraints.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5768B4E5F7F8D2553B525AECC9A45FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C68AB82F73130B2DF5CACC7EE7C67E /* ViewAnimator.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ViewAnimator/ViewAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ViewAnimator/ViewAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ViewAnimator/ViewAnimator.modulemap";
+				PRODUCT_MODULE_NAME = ViewAnimator;
+				PRODUCT_NAME = ViewAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFA88406794C895BA0C96ECBFFC4598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A52E3858F159F478E4DE14712C669847 /* Hero.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE5B140BFE7F1037F3F2120348C63925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A422CB690BF593EFB83827A1ED28692 /* TinyConstraints.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEC6BBBB1D56328F270CE2B75C18AC77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC74E70AD2D32EDAB57DF7C70ABA870B /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3B323C7BA27D24A50A6F858262D0900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB0489784088C7FCB0073783B19BD967 /* Hero.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hero/Hero-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hero/Hero-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Hero/Hero.modulemap";
+				PRODUCT_MODULE_NAME = Hero;
+				PRODUCT_NAME = Hero;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0538886AE6516DAA0032EB66B756DB30 /* Build configuration list for PBXNativeTarget "Pods-inmotion_Juliana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C01E5CEA3462FCF5135F44D51BF02A /* Debug */,
+				4CD53A645C9C5E9972743B975E555437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E123BC9F133F613945109CEEFA900DD /* Build configuration list for PBXNativeTarget "Pods-inmotion_JulianaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C521F8B1B1BA52067C72DA66D95D0D4 /* Debug */,
+				0D945B41107BEF5381560AF6D869532F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D61C52FB07387843C065A27DB40DF54 /* Build configuration list for PBXNativeTarget "Pods-inmotion_Juliana-inmotion_JulianaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C710EFBD7CAF3CDF00245E8B83621C7 /* Debug */,
+				CEC6BBBB1D56328F270CE2B75C18AC77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8FE3182F7A698B2443CEBCF9A30678 /* Build configuration list for PBXNativeTarget "Hero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA88406794C895BA0C96ECBFFC4598A /* Debug */,
+				F3B323C7BA27D24A50A6F858262D0900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFE5199A9D90502DB139AEABA7CBE7B /* Build configuration list for PBXNativeTarget "ViewAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEC8811CD04A1575D6F1863CE81DA4A /* Debug */,
+				5768B4E5F7F8D2553B525AECC9A45FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD85ED2280C8B28A283D153F13DDC5DA /* Build configuration list for PBXNativeTarget "Motion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A99D8C078DD58E409AF7068FADB873 /* Debug */,
+				311860A48D847F6D6BA86430DB0526EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED162CA822CAFF9F3B82904FBA2988C /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5174AF0CBFCB57F6F8E78B901A5387A1 /* Debug */,
+				BE5B140BFE7F1037F3F2120348C63925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

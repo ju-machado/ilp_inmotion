@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'inmotion_Juliana' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+  use_frameworks!
+
+pod 'Motion'
+pod 'ViewAnimator'
+pod 'TinyConstraints'
+pod 'Hero'
+
+  # Pods for inmotion_Juliana
+
+  target 'inmotion_JulianaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'inmotion_JulianaUITests' do
+    # Pods for testing
+  end
+
+end

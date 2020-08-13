@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2903E3A562768235433B2553 /* Pods_inmotion_JulianaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D9FE373CDA75D8D043E379C /* Pods_inmotion_JulianaTests.framework */; };
+		47C69F83C1BEDCF63130FA89 /* Pods_inmotion_Juliana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A42C5E90ADE590DA09838B2 /* Pods_inmotion_Juliana.framework */; };
+		830B0F7724D7340B006AA4E0 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830B0F7624D7340B006AA4E0 /* ContentViewController.swift */; };
+		830B0F7924D75404006AA4E0 /* Content.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830B0F7824D75404006AA4E0 /* Content.storyboard */; };
+		834CFBC024D850A30094C11F /* DScrollViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CFBBC24D850A30094C11F /* DScrollViewContainer.swift */; };
+		834CFBC124D850A30094C11F /* DScrollViewElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CFBBD24D850A30094C11F /* DScrollViewElement.swift */; };
+		834CFBC224D850A30094C11F /* DScrollView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CFBBE24D850A30094C11F /* DScrollView+.swift */; };
+		834CFBC324D850A30094C11F /* DScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CFBBF24D850A30094C11F /* DScrollView.swift */; };
+		834CFBC524D8E4EB0094C11F /* AnimationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834CFBC424D8E4EB0094C11F /* AnimationsViewController.swift */; };
+		83CD185924D6F37F007E4E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD185824D6F37F007E4E23 /* AppDelegate.swift */; };
+		83CD185B24D6F37F007E4E23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD185A24D6F37F007E4E23 /* SceneDelegate.swift */; };
+		83CD185D24D6F37F007E4E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD185C24D6F37F007E4E23 /* ViewController.swift */; };
+		83CD186024D6F37F007E4E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD185E24D6F37F007E4E23 /* Main.storyboard */; };
+		83CD186224D6F380007E4E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83CD186124D6F380007E4E23 /* Assets.xcassets */; };
+		83CD186524D6F380007E4E23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CD186324D6F380007E4E23 /* LaunchScreen.storyboard */; };
+		83CD187024D6F380007E4E23 /* inmotion_JulianaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD186F24D6F380007E4E23 /* inmotion_JulianaTests.swift */; };
+		83CD187B24D6F380007E4E23 /* inmotion_JulianaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CD187A24D6F380007E4E23 /* inmotion_JulianaUITests.swift */; };
+		CF7D3640FA11373B0F5D9B3E /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04AC97805F5A8C62D43A7E4 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83CD186C24D6F380007E4E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CD184D24D6F37F007E4E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CD185424D6F37F007E4E23;
+			remoteInfo = inmotion_Juliana;
+		};
+		83CD187724D6F380007E4E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CD184D24D6F37F007E4E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83CD185424D6F37F007E4E23;
+			remoteInfo = inmotion_Juliana;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A42C5E90ADE590DA09838B2 /* Pods_inmotion_Juliana.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inmotion_Juliana.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD76EFC49BA2663D1C102EB /* Pods-inmotion_Juliana.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_Juliana.debug.xcconfig"; path = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana.debug.xcconfig"; sourceTree = "<group>"; };
+		3E0454CF1B061936B91F480B /* Pods-inmotion_Juliana.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_Juliana.release.xcconfig"; path = "Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana.release.xcconfig"; sourceTree = "<group>"; };
+		42E4BB16B33813F121FEF736 /* Pods-inmotion_JulianaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_JulianaTests.release.xcconfig"; path = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests.release.xcconfig"; sourceTree = "<group>"; };
+		573699B08E251F499F80A971 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig"; path = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E787DD8784AD2BE912F6006 /* Pods-inmotion_JulianaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_JulianaTests.debug.xcconfig"; path = "Target Support Files/Pods-inmotion_JulianaTests/Pods-inmotion_JulianaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		830B0F7624D7340B006AA4E0 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		830B0F7824D75404006AA4E0 /* Content.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Content.storyboard; sourceTree = "<group>"; };
+		834CFBBC24D850A30094C11F /* DScrollViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewContainer.swift; sourceTree = "<group>"; };
+		834CFBBD24D850A30094C11F /* DScrollViewElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollViewElement.swift; sourceTree = "<group>"; };
+		834CFBBE24D850A30094C11F /* DScrollView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DScrollView+.swift"; sourceTree = "<group>"; };
+		834CFBBF24D850A30094C11F /* DScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DScrollView.swift; sourceTree = "<group>"; };
+		834CFBC424D8E4EB0094C11F /* AnimationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsViewController.swift; sourceTree = "<group>"; };
+		83CD185524D6F37F007E4E23 /* inmotion_Juliana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inmotion_Juliana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD185824D6F37F007E4E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83CD185A24D6F37F007E4E23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83CD185C24D6F37F007E4E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83CD185F24D6F37F007E4E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83CD186124D6F380007E4E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83CD186424D6F380007E4E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83CD186624D6F380007E4E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CD186B24D6F380007E4E23 /* inmotion_JulianaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inmotion_JulianaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD186F24D6F380007E4E23 /* inmotion_JulianaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inmotion_JulianaTests.swift; sourceTree = "<group>"; };
+		83CD187124D6F380007E4E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83CD187624D6F380007E4E23 /* inmotion_JulianaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inmotion_JulianaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CD187A24D6F380007E4E23 /* inmotion_JulianaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inmotion_JulianaUITests.swift; sourceTree = "<group>"; };
+		83CD187C24D6F380007E4E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		855C87DF563D5DD3C17DFB46 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig"; path = "Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D9FE373CDA75D8D043E379C /* Pods_inmotion_JulianaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inmotion_JulianaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04AC97805F5A8C62D43A7E4 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_inmotion_Juliana_inmotion_JulianaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83CD185224D6F37F007E4E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47C69F83C1BEDCF63130FA89 /* Pods_inmotion_Juliana.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD186824D6F380007E4E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2903E3A562768235433B2553 /* Pods_inmotion_JulianaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD187324D6F380007E4E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7D3640FA11373B0F5D9B3E /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47DADF421D26A0ACEB269DF6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A42C5E90ADE590DA09838B2 /* Pods_inmotion_Juliana.framework */,
+				B04AC97805F5A8C62D43A7E4 /* Pods_inmotion_Juliana_inmotion_JulianaUITests.framework */,
+				9D9FE373CDA75D8D043E379C /* Pods_inmotion_JulianaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689005226E16D56D940D6965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FD76EFC49BA2663D1C102EB /* Pods-inmotion_Juliana.debug.xcconfig */,
+				3E0454CF1B061936B91F480B /* Pods-inmotion_Juliana.release.xcconfig */,
+				855C87DF563D5DD3C17DFB46 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */,
+				573699B08E251F499F80A971 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */,
+				6E787DD8784AD2BE912F6006 /* Pods-inmotion_JulianaTests.debug.xcconfig */,
+				42E4BB16B33813F121FEF736 /* Pods-inmotion_JulianaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		834CFBBB24D850760094C11F /* DScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				834CFBBF24D850A30094C11F /* DScrollView.swift */,
+				834CFBBE24D850A30094C11F /* DScrollView+.swift */,
+				834CFBBC24D850A30094C11F /* DScrollViewContainer.swift */,
+				834CFBBD24D850A30094C11F /* DScrollViewElement.swift */,
+			);
+			path = DScrollView;
+			sourceTree = "<group>";
+		};
+		83CD184C24D6F37F007E4E23 = {
+			isa = PBXGroup;
+			children = (
+				83CD185724D6F37F007E4E23 /* inmotion_Juliana */,
+				83CD186E24D6F380007E4E23 /* inmotion_JulianaTests */,
+				83CD187924D6F380007E4E23 /* inmotion_JulianaUITests */,
+				83CD185624D6F37F007E4E23 /* Products */,
+				689005226E16D56D940D6965 /* Pods */,
+				47DADF421D26A0ACEB269DF6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		83CD185624D6F37F007E4E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83CD185524D6F37F007E4E23 /* inmotion_Juliana.app */,
+				83CD186B24D6F380007E4E23 /* inmotion_JulianaTests.xctest */,
+				83CD187624D6F380007E4E23 /* inmotion_JulianaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83CD185724D6F37F007E4E23 /* inmotion_Juliana */ = {
+			isa = PBXGroup;
+			children = (
+				834CFBBB24D850760094C11F /* DScrollView */,
+				83CD185824D6F37F007E4E23 /* AppDelegate.swift */,
+				83CD185A24D6F37F007E4E23 /* SceneDelegate.swift */,
+				83CD185C24D6F37F007E4E23 /* ViewController.swift */,
+				830B0F7624D7340B006AA4E0 /* ContentViewController.swift */,
+				834CFBC424D8E4EB0094C11F /* AnimationsViewController.swift */,
+				83CD185E24D6F37F007E4E23 /* Main.storyboard */,
+				830B0F7824D75404006AA4E0 /* Content.storyboard */,
+				83CD186124D6F380007E4E23 /* Assets.xcassets */,
+				83CD186324D6F380007E4E23 /* LaunchScreen.storyboard */,
+				83CD186624D6F380007E4E23 /* Info.plist */,
+			);
+			path = inmotion_Juliana;
+			sourceTree = "<group>";
+		};
+		83CD186E24D6F380007E4E23 /* inmotion_JulianaTests */ = {
+			isa = PBXGroup;
+			children = (
+				83CD186F24D6F380007E4E23 /* inmotion_JulianaTests.swift */,
+				83CD187124D6F380007E4E23 /* Info.plist */,
+			);
+			path = inmotion_JulianaTests;
+			sourceTree = "<group>";
+		};
+		83CD187924D6F380007E4E23 /* inmotion_JulianaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83CD187A24D6F380007E4E23 /* inmotion_JulianaUITests.swift */,
+				83CD187C24D6F380007E4E23 /* Info.plist */,
+			);
+			path = inmotion_JulianaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83CD185424D6F37F007E4E23 /* inmotion_Juliana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CD187F24D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_Juliana" */;
+			buildPhases = (
+				F691AA34DF5C965A0440E03B /* [CP] Check Pods Manifest.lock */,
+				83CD185124D6F37F007E4E23 /* Sources */,
+				83CD185224D6F37F007E4E23 /* Frameworks */,
+				83CD185324D6F37F007E4E23 /* Resources */,
+				C165738E57A45E4E62719E02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inmotion_Juliana;
+			productName = inmotion_Juliana;
+			productReference = 83CD185524D6F37F007E4E23 /* inmotion_Juliana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83CD186A24D6F380007E4E23 /* inmotion_JulianaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CD188224D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_JulianaTests" */;
+			buildPhases = (
+				7E4691F04B3A9B0E25ED4C1C /* [CP] Check Pods Manifest.lock */,
+				83CD186724D6F380007E4E23 /* Sources */,
+				83CD186824D6F380007E4E23 /* Frameworks */,
+				83CD186924D6F380007E4E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83CD186D24D6F380007E4E23 /* PBXTargetDependency */,
+			);
+			name = inmotion_JulianaTests;
+			productName = inmotion_JulianaTests;
+			productReference = 83CD186B24D6F380007E4E23 /* inmotion_JulianaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83CD187524D6F380007E4E23 /* inmotion_JulianaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CD188524D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_JulianaUITests" */;
+			buildPhases = (
+				C5D135DDFB2FBD0FA0EFE117 /* [CP] Check Pods Manifest.lock */,
+				83CD187224D6F380007E4E23 /* Sources */,
+				83CD187324D6F380007E4E23 /* Frameworks */,
+				83CD187424D6F380007E4E23 /* Resources */,
+				C2A5A0E1BF9DB1ADD7850FAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83CD187824D6F380007E4E23 /* PBXTargetDependency */,
+			);
+			name = inmotion_JulianaUITests;
+			productName = inmotion_JulianaUITests;
+			productReference = 83CD187624D6F380007E4E23 /* inmotion_JulianaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CD184D24D6F37F007E4E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Juliana Pereira Machado";
+				TargetAttributes = {
+					83CD185424D6F37F007E4E23 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					83CD186A24D6F380007E4E23 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 83CD185424D6F37F007E4E23;
+					};
+					83CD187524D6F380007E4E23 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 83CD185424D6F37F007E4E23;
+					};
+				};
+			};
+			buildConfigurationList = 83CD185024D6F37F007E4E23 /* Build configuration list for PBXProject "inmotion_Juliana" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CD184C24D6F37F007E4E23;
+			productRefGroup = 83CD185624D6F37F007E4E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83CD185424D6F37F007E4E23 /* inmotion_Juliana */,
+				83CD186A24D6F380007E4E23 /* inmotion_JulianaTests */,
+				83CD187524D6F380007E4E23 /* inmotion_JulianaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83CD185324D6F37F007E4E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830B0F7924D75404006AA4E0 /* Content.storyboard in Resources */,
+				83CD186524D6F380007E4E23 /* LaunchScreen.storyboard in Resources */,
+				83CD186224D6F380007E4E23 /* Assets.xcassets in Resources */,
+				83CD186024D6F37F007E4E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD186924D6F380007E4E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD187424D6F380007E4E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E4691F04B3A9B0E25ED4C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inmotion_JulianaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C165738E57A45E4E62719E02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana/Pods-inmotion_Juliana-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A5A0E1BF9DB1ADD7850FAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-inmotion_Juliana-inmotion_JulianaUITests/Pods-inmotion_Juliana-inmotion_JulianaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5D135DDFB2FBD0FA0EFE117 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inmotion_Juliana-inmotion_JulianaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F691AA34DF5C965A0440E03B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-inmotion_Juliana-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83CD185124D6F37F007E4E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				830B0F7724D7340B006AA4E0 /* ContentViewController.swift in Sources */,
+				834CFBC224D850A30094C11F /* DScrollView+.swift in Sources */,
+				834CFBC324D850A30094C11F /* DScrollView.swift in Sources */,
+				834CFBC524D8E4EB0094C11F /* AnimationsViewController.swift in Sources */,
+				834CFBC024D850A30094C11F /* DScrollViewContainer.swift in Sources */,
+				83CD185D24D6F37F007E4E23 /* ViewController.swift in Sources */,
+				834CFBC124D850A30094C11F /* DScrollViewElement.swift in Sources */,
+				83CD185924D6F37F007E4E23 /* AppDelegate.swift in Sources */,
+				83CD185B24D6F37F007E4E23 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD186724D6F380007E4E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CD187024D6F380007E4E23 /* inmotion_JulianaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CD187224D6F380007E4E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CD187B24D6F380007E4E23 /* inmotion_JulianaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83CD186D24D6F380007E4E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83CD185424D6F37F007E4E23 /* inmotion_Juliana */;
+			targetProxy = 83CD186C24D6F380007E4E23 /* PBXContainerItemProxy */;
+		};
+		83CD187824D6F380007E4E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83CD185424D6F37F007E4E23 /* inmotion_Juliana */;
+			targetProxy = 83CD187724D6F380007E4E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83CD185E24D6F37F007E4E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CD185F24D6F37F007E4E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83CD186324D6F380007E4E23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83CD186424D6F380007E4E23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83CD187D24D6F380007E4E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83CD187E24D6F380007E4E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83CD188024D6F380007E4E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD76EFC49BA2663D1C102EB /* Pods-inmotion_Juliana.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_Juliana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-Juliana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83CD188124D6F380007E4E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0454CF1B061936B91F480B /* Pods-inmotion_Juliana.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_Juliana/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-Juliana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CD188324D6F380007E4E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E787DD8784AD2BE912F6006 /* Pods-inmotion_JulianaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_JulianaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-JulianaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inmotion_Juliana.app/inmotion_Juliana";
+			};
+			name = Debug;
+		};
+		83CD188424D6F380007E4E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E4BB16B33813F121FEF736 /* Pods-inmotion_JulianaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_JulianaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-JulianaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inmotion_Juliana.app/inmotion_Juliana";
+			};
+			name = Release;
+		};
+		83CD188624D6F380007E4E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855C87DF563D5DD3C17DFB46 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_JulianaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-JulianaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inmotion_Juliana;
+			};
+			name = Debug;
+		};
+		83CD188724D6F380007E4E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 573699B08E251F499F80A971 /* Pods-inmotion_Juliana-inmotion_JulianaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = inmotion_JulianaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jumachado.inmotion-JulianaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inmotion_Juliana;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83CD185024D6F37F007E4E23 /* Build configuration list for PBXProject "inmotion_Juliana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CD187D24D6F380007E4E23 /* Debug */,
+				83CD187E24D6F380007E4E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CD187F24D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_Juliana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CD188024D6F380007E4E23 /* Debug */,
+				83CD188124D6F380007E4E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CD188224D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_JulianaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CD188324D6F380007E4E23 /* Debug */,
+				83CD188424D6F380007E4E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CD188524D6F380007E4E23 /* Build configuration list for PBXNativeTarget "inmotion_JulianaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CD188624D6F380007E4E23 /* Debug */,
+				83CD188724D6F380007E4E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CD184D24D6F37F007E4E23 /* Project object */;
+}

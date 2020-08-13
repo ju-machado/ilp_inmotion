@@ -1,0 +1,30 @@
+PODS:
+  - Hero (1.5.0)
+  - Motion (3.1.3):
+    - Motion/Core (= 3.1.3)
+  - Motion/Core (3.1.3)
+  - TinyConstraints (4.0.1)
+  - ViewAnimator (2.7.0)
+
+DEPENDENCIES:
+  - Hero
+  - Motion
+  - TinyConstraints
+  - ViewAnimator
+
+SPEC REPOS:
+  trunk:
+    - Hero
+    - Motion
+    - TinyConstraints
+    - ViewAnimator
+
+SPEC CHECKSUMS:
+  Hero: b7385b75e7259da62f4f85462f59a5082d66b058
+  Motion: cf1e060e489f6661126374d5c60dbd2ed991605c
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+  ViewAnimator: 5af1c6f3b310f012bf081259c43717aa54fbae73
+
+PODFILE CHECKSUM: d078f96c88fdf34876eb05463470f0135b1cfb80
+
+COCOAPODS: 1.9.3
